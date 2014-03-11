@@ -108,6 +108,18 @@
     <class kind="class">WeirdoCustomDigitsInt</class>
     <docanchor file="index">License</docanchor>
   </compound>
+  <compound kind="file">
+    <name>x.php</name>
+    <path>/Users/danorton/git/github/danorton/WeirdoCustomDigits/</path>
+    <filename>x_8php</filename>
+    <member kind="variable">
+      <type></type>
+      <name>$x</name>
+      <anchorfile>x_8php.html</anchorfile>
+      <anchor>af3a16c5f0dd7a74cf9acf6a49fff73a7</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
   <compound kind="group">
     <name>WeirdoCustomDigits</name>
     <title>WeirdoCustomDigits</title>
@@ -120,6 +132,9 @@
     <class kind="class">WeirdoCustomDigitsBc</class>
     <class kind="class">WeirdoCustomDigitsGmp</class>
     <class kind="class">WeirdoCustomDigitsInt</class>
+    <docanchor file="group__WeirdoCustomDigits" title="Implementation subclasses">subclasses</docanchor>
+    <docanchor file="group__WeirdoCustomDigits">Requirements</docanchor>
+    <docanchor file="group__WeirdoCustomDigits">Limitations</docanchor>
   </compound>
   <compound kind="class">
     <name>WeirdoCustomDigits</name>
@@ -467,8 +482,6 @@
       <anchor>a9ee8a93dc70f106b5a79ea2413df7775</anchor>
       <arglist></arglist>
     </member>
-    <docanchor file="classWeirdoCustomDigitsInt">Requirements</docanchor>
-    <docanchor file="classWeirdoCustomDigitsInt">Limitations</docanchor>
   </compound>
   <compound kind="class">
     <name>WeirdoCustomDigitsBc</name>
@@ -649,8 +662,8 @@
       <anchor>a6f4587becc561f8c91f7fe4035c7000e</anchor>
       <arglist></arglist>
     </member>
-    <docanchor file="classWeirdoCustomDigitsInt">Requirements</docanchor>
-    <docanchor file="classWeirdoCustomDigitsInt">Limitations</docanchor>
+    <docanchor file="group__WeirdoCustomDigits">Requirements</docanchor>
+    <docanchor file="group__WeirdoCustomDigits">Limitations</docanchor>
   </compound>
   <compound kind="class">
     <name>WeirdoCustomDigitsGmp</name>
@@ -803,8 +816,8 @@
       <anchor>ae9874bc49491a5ce52ed820f75430981</anchor>
       <arglist>($nDigits)</arglist>
     </member>
-    <docanchor file="classWeirdoCustomDigitsInt">Requirements</docanchor>
-    <docanchor file="classWeirdoCustomDigitsInt">Limitations</docanchor>
+    <docanchor file="group__WeirdoCustomDigits">Requirements</docanchor>
+    <docanchor file="group__WeirdoCustomDigits">Limitations</docanchor>
   </compound>
   <compound kind="class">
     <name>WeirdoCustomDigitsInt</name>
@@ -950,8 +963,8 @@
       <anchor>aad3b2131e25f698f486a532dadbb583a</anchor>
       <arglist>($nDigitsDecimal)</arglist>
     </member>
-    <docanchor file="classWeirdoCustomDigitsInt">Requirements</docanchor>
-    <docanchor file="classWeirdoCustomDigitsInt">Limitations</docanchor>
+    <docanchor file="group__WeirdoCustomDigits">Requirements</docanchor>
+    <docanchor file="group__WeirdoCustomDigits">Limitations</docanchor>
   </compound>
   <compound kind="dir">
     <name>ut</name>

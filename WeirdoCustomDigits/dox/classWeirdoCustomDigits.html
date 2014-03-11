@@ -24,7 +24,8 @@
   });
 </script>
 <link rel="search" href="search-opensearch.php?v=opensearch.xml" type="application/opensearchdescription+xml" title="WeirdoCustomDigits"/>
-<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+<link href="extra.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
 <div id="top"><!-- do not remove this div, it is closed by doxygen! -->
@@ -286,19 +287,8 @@ Private Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Abstract class for converting custom numbers with arbitrary radixes and digit characters. </p>
-<h1><a class="anchor" id="Requirements"></a>
-Requirements</h1>
-<ul>
-<li>PHP 5.3 or later</li>
-<li>If using multi-byte or UTF-8 digits, PCRE UTF-8 support is required.</li>
-</ul>
-<h1><a class="anchor" id="Limitations"></a>
-Limitations</h1>
-<ul>
-<li>Only non-negative integers ("whole numbers") are supported. </li>
-</ul>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00047">47</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00095">95</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a class="anchor" id="a26f1ce867178e2c08d641e84b5603260"></a>
 <div class="memitem">
@@ -343,9 +333,9 @@ Limitations</h1>
 <div class="fragment"><div class="line"><span class="comment">// Manipulate base-65 numbers that have the digits [0-9a-zA-Z_.*].</span></div>
 <div class="line">$wrdx = <span class="keyword">new</span> WeirdoCustomDigitInt(<a class="code" href="classWeirdoCustomDigits.html#a8c8d9489ee99cc5f5ba726125e5a0de8">WeirdoCustomDigits::DIGITS_70</a>,65);</div>
 </div><!-- fragment --> 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00105">105</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00153">153</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
-<p>References <a class="el" href="WeirdoCustomDigits_8php_source.html#l00119">init()</a>.</p>
+<p>References <a class="el" href="WeirdoCustomDigits_8php_source.html#l00167">init()</a>.</p>
 
 </div>
 </div>
@@ -442,7 +432,7 @@ Limitations</h1>
 <dl class="section user"><dt>Access:</dt><dd>private</dd></dl>
 <p>PHP only allows variable declarations with simple constants, so we have this function for more complex initialization of statics. Although "public" in construction, it is usable in this source file, only, immediately after this class is declared. Any attempt to invoke this method a second time will throw an ErrorException. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00556">556</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00604">604</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -495,7 +485,7 @@ Limitations</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00533">533</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00581">581</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -531,7 +521,7 @@ Limitations</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>binary-number string of zero (0) and one (1) characters. </dd></dl>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00231">231</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00279">279</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -567,9 +557,9 @@ Limitations</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>binary-number string of zero (0) and one (1) characters. </dd></dl>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00246">246</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00294">294</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
-<p>References <a class="el" href="WeirdoCustomDigits_8php_source.html#l00498">str_split()</a>.</p>
+<p>References <a class="el" href="WeirdoCustomDigits_8php_source.html#l00546">str_split()</a>.</p>
 
 </div>
 </div>
@@ -803,7 +793,7 @@ Limitations</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>decimal-number string of decimal digits </dd></dl>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00312">312</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00360">360</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -863,7 +853,7 @@ Limitations</h1>
 </table>
 </div><div class="memdoc">
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00327">327</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00375">375</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -932,9 +922,9 @@ Limitations</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>hexadecimal string of hexadecimal digits </dd></dl>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00350">350</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00398">398</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
-<p>References <a class="el" href="WeirdoCustomDigits_8php_source.html#l00498">str_split()</a>.</p>
+<p>References <a class="el" href="WeirdoCustomDigits_8php_source.html#l00546">str_split()</a>.</p>
 
 </div>
 </div>
@@ -1003,7 +993,7 @@ Limitations</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>hexadecimal string </dd></dl>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00391">391</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00439">439</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -1064,7 +1054,7 @@ Limitations</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>hexadecimal digits. </dd></dl>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00440">440</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00488">488</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 <p>Referenced by <a class="el" href="WeirdoCustomDigitsBc_8php_source.html#l00109">WeirdoCustomDigitsBc\customRandomFromInternalRange()</a>, <a class="el" href="WeirdoCustomDigitsGmp_8php_source.html#l00111">WeirdoCustomDigitsGmp\customRandomFromInternalRange()</a>, and <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00141">WeirdoCustomDigitsInt\customRandomFromInternalRange()</a>.</p>
 
@@ -1104,11 +1094,11 @@ Limitations</h1>
 <p>This can be called after first-time initialization to change the previous settings (which will be discarded).</p>
 <p>Same parameters as <a class="el" href="classWeirdoCustomDigits.html#a26f1ce867178e2c08d641e84b5603260" title="Class constructor. ">__construct()</a>. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00119">119</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00167">167</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
-<p>References <a class="el" href="WeirdoCustomDigits_8php_source.html#l00498">str_split()</a>, and <a class="el" href="WeirdoCustomDigits_8php_source.html#l00484">uc_str_split()</a>.</p>
+<p>References <a class="el" href="WeirdoCustomDigits_8php_source.html#l00546">str_split()</a>, and <a class="el" href="WeirdoCustomDigits_8php_source.html#l00532">uc_str_split()</a>.</p>
 
-<p>Referenced by <a class="el" href="WeirdoCustomDigits_8php_source.html#l00105">__construct()</a>.</p>
+<p>Referenced by <a class="el" href="WeirdoCustomDigits_8php_source.html#l00153">__construct()</a>.</p>
 
 </div>
 </div>
@@ -1243,9 +1233,9 @@ Limitations</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>array of single-character strings </dd></dl>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00498">498</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00546">546</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
-<p>Referenced by <a class="el" href="WeirdoCustomDigits_8php_source.html#l00246">binFromHex()</a>, <a class="el" href="WeirdoCustomDigitsBc_8php_source.html#l00129">WeirdoCustomDigitsBc\decimalFromBin()</a>, <a class="el" href="WeirdoCustomDigitsBc_8php_source.html#l00158">WeirdoCustomDigitsBc\decimalFromHex()</a>, <a class="el" href="WeirdoCustomDigits_8php_source.html#l00350">hexFromBin()</a>, <a class="el" href="WeirdoCustomDigits_8php_source.html#l00119">init()</a>, <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00109">WeirdoCustomDigitsInt\internalFromCustom()</a>, <a class="el" href="WeirdoCustomDigitsGmp_8php_source.html#l00170">WeirdoCustomDigitsGmp\internalFromCustom()</a>, <a class="el" href="WeirdoCustomDigitsBc_8php_source.html#l00225">WeirdoCustomDigitsBc\internalFromCustom()</a>, and <a class="el" href="WeirdoCustomDigits_8php_source.html#l00218">validateCustomNumber()</a>.</p>
+<p>Referenced by <a class="el" href="WeirdoCustomDigits_8php_source.html#l00294">binFromHex()</a>, <a class="el" href="WeirdoCustomDigitsBc_8php_source.html#l00129">WeirdoCustomDigitsBc\decimalFromBin()</a>, <a class="el" href="WeirdoCustomDigitsBc_8php_source.html#l00158">WeirdoCustomDigitsBc\decimalFromHex()</a>, <a class="el" href="WeirdoCustomDigits_8php_source.html#l00398">hexFromBin()</a>, <a class="el" href="WeirdoCustomDigits_8php_source.html#l00167">init()</a>, <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00109">WeirdoCustomDigitsInt\internalFromCustom()</a>, <a class="el" href="WeirdoCustomDigitsGmp_8php_source.html#l00170">WeirdoCustomDigitsGmp\internalFromCustom()</a>, <a class="el" href="WeirdoCustomDigitsBc_8php_source.html#l00225">WeirdoCustomDigitsBc\internalFromCustom()</a>, and <a class="el" href="WeirdoCustomDigits_8php_source.html#l00266">validateCustomNumber()</a>.</p>
 
 </div>
 </div>
@@ -1281,9 +1271,9 @@ Limitations</h1>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>array of single-Unicode-character strings </dd></dl>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00484">484</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00532">532</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
-<p>Referenced by <a class="el" href="WeirdoCustomDigits_8php_source.html#l00119">init()</a>.</p>
+<p>Referenced by <a class="el" href="WeirdoCustomDigits_8php_source.html#l00167">init()</a>.</p>
 
 </div>
 </div>
@@ -1310,9 +1300,9 @@ Limitations</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00199">199</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00247">247</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
-<p>Referenced by <a class="el" href="WeirdoCustomDigits_8php_source.html#l00218">validateCustomNumber()</a>.</p>
+<p>Referenced by <a class="el" href="WeirdoCustomDigits_8php_source.html#l00266">validateCustomNumber()</a>.</p>
 
 </div>
 </div>
@@ -1340,9 +1330,9 @@ Limitations</h1>
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00218">218</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00266">266</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
-<p>References <a class="el" href="WeirdoCustomDigits_8php_source.html#l00498">str_split()</a>, and <a class="el" href="WeirdoCustomDigits_8php_source.html#l00199">validateCustomDigit()</a>.</p>
+<p>References <a class="el" href="WeirdoCustomDigits_8php_source.html#l00546">str_split()</a>, and <a class="el" href="WeirdoCustomDigits_8php_source.html#l00247">validateCustomDigit()</a>.</p>
 
 </div>
 </div>
@@ -1367,7 +1357,7 @@ Limitations</h1>
 
 <p>printf format to left-zero-fill a binary-digit string to the number of bits that corresponds to self::$_hexbinChunkSize </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00614">614</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00662">662</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -1391,7 +1381,7 @@ Limitations</h1>
 
 <p>The number of binary digits that corresponds to self::$_hexbinChunkSize. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00619">619</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00667">667</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -1416,7 +1406,7 @@ Limitations</h1>
 <p>Array of number of bits by range of numbers. </p>
 <p>This is an array that maps a range of numbers to the number of bits required to represent any number in that range. (Actually stored is the limit of the range, log2(n), which starts at zero and ends at one less than the limit.) </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00602">602</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00650">650</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -1441,7 +1431,7 @@ Limitations</h1>
 <p>An array of custom-number digits. </p>
 <p>The first element is zero, the second is unity, ... </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00574">574</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00622">622</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -1465,7 +1455,7 @@ Limitations</h1>
 
 <p>An associative array that maps custom-number digits to their numerical values. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00579">579</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00627">627</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 <p>Referenced by <a class="el" href="WeirdoCustomDigitsGmp_8php_source.html#l00056">WeirdoCustomDigitsGmp\init()</a>.</p>
 
@@ -1491,7 +1481,7 @@ Limitations</h1>
 
 <p>Function vector for mapable class functions. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00630">630</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00678">678</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -1515,7 +1505,7 @@ Limitations</h1>
 
 <p>The maximum number of hexadecimal digits that both decbin(hexdec($hex)) and dechex(bindec($binary)) can handle. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00608">608</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00656">656</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -1539,7 +1529,7 @@ Limitations</h1>
 
 <p>printf format to left-zero-fill a hex string to the number of hex digits specified by self::$_hexbinChunkSize </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00625">625</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00673">673</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -1563,7 +1553,7 @@ Limitations</h1>
 
 <p>Boolean indicator if Unicode is supported by this instance (See initialization parameter $use_uc.) </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00636">636</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00684">684</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -1587,7 +1577,7 @@ Limitations</h1>
 
 <p>The radix of the custom number. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00584">584</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00632">632</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 <p>Referenced by <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00060">WeirdoCustomDigitsInt\customFromInternal()</a>.</p>
 
@@ -1614,7 +1604,7 @@ Limitations</h1>
 <p>Custom number ranges by number of digits. </p>
 <p>This is an array that maps the number of digits in a custom number to the internal representation of the limit for that number as expressed by the number of digits of the custom number. (e.g. 4 digits in base 10 has a limit of 10000.) </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00593">593</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00641">641</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -1630,7 +1620,7 @@ Limitations</h1>
 
 <p>Set to <code>true</code> only if openssl random is not crypto safe. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00071">71</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00119">119</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -1655,7 +1645,7 @@ Limitations</h1>
 <p>The maximum value of a number. </p>
 <p>If not set or <code>null</code>, there is no practical limit. Otherwise, this is the internally represented maximum number allowed. For the integer subclass <a class="el" href="classWeirdoCustomDigitsInt.html" title="Implementation of WeirdoCustomDigits using built-in integer arithmetic. ">WeirdoCustomDigitsInt</a>, for example, this value is PHP_INT_MAX; </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00083">83</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00131">131</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -1679,7 +1669,7 @@ Limitations</h1>
 
 <p>Maximum of contiguous range of integers that PHP supports for arithmetic. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00074">74</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00122">122</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -1695,7 +1685,7 @@ Limitations</h1>
 
 <p>Arabic decimal digits (UTF-8) </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00065">65</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00113">113</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -1711,7 +1701,7 @@ Limitations</h1>
 
 <p>Digits up to base 51 less likely to be misread These consists of a subset of the typical base-62 digits, less these eleven digits: 0O 1Ll 2Z 5S 8B. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00062">62</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00110">110</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -1727,7 +1717,7 @@ Limitations</h1>
 
 <p>Digits compatibile with gmp from base 37 to base 62. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00056">56</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00104">104</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -1743,7 +1733,7 @@ Limitations</h1>
 
 <p>Digits for radixes up to base 70 (including bc and gmp up to base 36) </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00053">53</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00101">101</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -1759,7 +1749,7 @@ Limitations</h1>
 
 <p>Precision of IEEE 754 floating point number. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00068">68</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00116">116</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -1775,7 +1765,7 @@ Limitations</h1>
 
 <p>Class version. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00050">50</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigits_8php_source.html#l00098">98</a> of file <a class="el" href="WeirdoCustomDigits_8php_source.html">WeirdoCustomDigits.php</a>.</p>
 
 </div>
 </div>
@@ -1789,7 +1779,7 @@ Limitations</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classWeirdoCustomDigits.html">WeirdoCustomDigits</a></li>
-    <li class="footer">Generated on Tue Mar 11 2014 12:29:26 for WeirdoCustomDigits by
+    <li class="footer">Generated on Tue Mar 11 2014 16:05:27 for WeirdoCustomDigits by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
     <li class="footer center">© 2014 WeirdoSoft</li>

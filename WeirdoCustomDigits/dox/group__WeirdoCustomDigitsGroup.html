@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.6"/>
-<title>WeirdoCustomDigits: WeirdoCustomDigits</title>
+<title>WeirdoCustomDigits: WeirdoCustomDigitsGroup</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -79,7 +79,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('group__WeirdoCustomDigits.html','');});
+$(document).ready(function(){initNavTree('group__WeirdoCustomDigitsGroup.html','');});
 </script>
 <div id="doc-content">
 <div class="header">
@@ -87,55 +87,13 @@ $(document).ready(function(){initNavTree('group__WeirdoCustomDigits.html','');})
 <a href="#files">Files</a> &#124;
 <a href="#nested-classes">Classes</a>  </div>
   <div class="headertitle">
-<div class="title">WeirdoCustomDigits</div>  </div>
+<div class="title">WeirdoCustomDigitsGroup</div>  </div>
 </div><!--header-->
 <div class="contents">
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<p>This module provides the <a class="el" href="classWeirdoCustomDigits.html" title="Abstract class for converting custom numbers with arbitrary radixes and digit characters. ">WeirdoCustomDigits</a> abstract PHP class and implementation subclasses, which perform radix conversion on numbers with arbitrary digits. </p>
-<p>The digits of a such a <b>custom number</b> can be any Unicode character, and is not limited to ASCII alphanumerics.</p>
-<p>For example, a base-4 custom number could have the digits, "X", "Y", "Z" &amp; "T", where "X" represents zero (decimal "0"), "Y" represents unity (decimal "1"), "Z" represents the next natural digit (decimal "2") &amp;c. The decimal number 105 expressed as such a custom number would be "YZZY". Expanding the digits as a polynomial produces</p>
-<ul>
-<li>"Y"×4³ + "Z"×4² + "Z"×4¹ + "Y"×5⁰ = 1×64 + 2×16 + 2×4 + 1×1 = 105</li>
-</ul>
-<p>As "X" is the zero digit, it can be repeated any number of times before a number, just as with leading decimal zeros before a decimal number. For example, "YZZY" is numerically identical to "XYZZY".</p>
-<p>Code example: </p>
-<div class="fragment"><div class="line">require_once(<span class="stringliteral">&#39;WeirdoCustomDigitsInt.php&#39;</span>);</div>
-<div class="line">$converter = <a class="code" href="classWeirdoCustomDigitsInt.html">WeirdoCustomDigitsInt</a>(<span class="stringliteral">&#39;XYZT&#39;</span>);</div>
-<div class="line">$number = $converter-&gt;customFromDecimal(105);</div>
-<div class="line">var_dump($number);</div>
-</div><!-- fragment --><p> Output: </p>
-<div class="fragment"><div class="line">string(4) <span class="stringliteral">&quot;YZZY&quot;</span></div>
-</div><!-- fragment --><p>When working with numbers from bases in the range from 2 to 36, it might be more practical to use the PHP function <a href="http://php.net/base_convert">base_convert()</a> and then substitute the characters using <a href="http://php.net/base_convert">str_replace()</a>. (If the gmp extension is available, you could do a similar conversion for bases up to base 62.) Consequently, this module is more practical for number bases above 36 (or above base 62, if gmp is available).</p>
-<p>Otherwise, there is no practical limit on the radix, provided each digit in the radix can be represented by a different Unicode character.</p>
-<p>There is one important limitation on numbers: <b>Only non-negative integers are supported by this module</b>.</p>
-<h1><a class="anchor" id="subclasses"></a>
-Implementation subclasses</h1>
-<p>The <a class="el" href="classWeirdoCustomDigitsInt.html" title="Implementation of WeirdoCustomDigits using built-in integer arithmetic. ">WeirdoCustomDigitsInt</a> subclass implements the functions using basic PHP arithmetic. It is limited to numbers that range from zero to the smaller of:</p>
-<ol type="1">
-<li><b>PHP_INT_MAX</b> and</li>
-<li>The maximum of the contiguous set of integers that can be expressed as a float.</li>
-</ol>
-<p>Typical PHP implementations use IEEE 754 for implementing floating point numbers, so the typical limit for 32-bit environments is 2³¹ (0x7FFFFFFF) and for 64-bit environments, the limit is 2⁵³ (0x1FFFFFFFFFFFF).</p>
-<p>The bc- and gmp-based implementations (<a class="el" href="classWeirdoCustomDigitsBc.html" title="Implementation of WeirdoCustomDigits using the bc extension for arithmetic. ">WeirdoCustomDigitsBc</a> and <a class="el" href="classWeirdoCustomDigitsGmp.html" title="Implementation of WeirdoCustomDigits using the gmp extension for arithmetic. ">WeirdoCustomDigitsGmp</a>) remove the limitation on the ranges of numeric values.</p>
-<p>The classes also provide methods for producing random numbers of uniform distribution, expressed as a custom number.</p>
-<p>The module provides several pre-defined radix sets:</p>
-<ul>
-<li><a class="el" href="classWeirdoCustomDigits.html#a8c8d9489ee99cc5f5ba726125e5a0de8" title="Digits for radixes up to base 70 (including bc and gmp up to base 36) ">WeirdoCustomDigits::DIGITS_70</a> - Digits for radixes up to base 70 (compatible with <b>base_convert</b> and gmp up to base 36)</li>
-<li><a class="el" href="classWeirdoCustomDigits.html#aad7d2c22ccd930ed9e6aa02630787ce8" title="Digits compatibile with gmp from base 37 to base 62. ">WeirdoCustomDigits::DIGITS_62_GMP</a> - Digits for radixes up to base 62 (compatible with gmp from base 37 to base 62)</li>
-<li><a class="el" href="classWeirdoCustomDigits.html#a812b07e5eb35e177543dd512d2e4e76f" title="Arabic decimal digits (UTF-8) ">WeirdoCustomDigits::DIGITS_10_ARABIC_EAST</a> - The Eastern Arabic numerals (٠١٢٣٤٥٦٧٨٩).</li>
-<li><a class="el" href="classWeirdoCustomDigits.html#ae324faa03b7980dbf9804693c88fb495" title="Digits up to base 51 less likely to be misread These consists of a subset of the typical base-62 digi...">WeirdoCustomDigits::DIGITS_51_READABLE</a> - digits that are less likely to be confused with other digits.</li>
-</ul>
-<h1><a class="anchor" id="Requirements"></a>
-Requirements</h1>
-<ul>
-<li>PHP 5.3 or later</li>
-<li>If using multi-byte or UTF-8 digits, PCRE UTF-8 support is required.</li>
-</ul>
-<h1><a class="anchor" id="Limitations"></a>
-Limitations</h1>
-<ul>
-<li>Only non-negative integers ("whole numbers") are supported. </li>
-</ul>
+<p>These PHP classes convert custom numbers with arbitrary radixes and digit characters. </p>
+<p>The digits of a custom number can be any Unicode character, not just ASCII alphanumerics. The bc- and gmp-based implementations (<a class="el" href="classWeirdoCustomDigitsBc.html" title="Implementation of WeirdoCustomDigits using the bc extension for arithmetic. ">WeirdoCustomDigitsBc</a> and <a class="el" href="classWeirdoCustomDigitsGmp.html" title="Implementation of WeirdoCustomDigits using the gmp extension for arithmetic. ">WeirdoCustomDigitsGmp</a>) remove the limitation on the ranges of numeric values. Finally, there is no practical limit on the radix, provided each digit in the radix can be represented by a different Unicode character. The classes also provide methods for producing random numbers of uniform distribution, expressed as a custom number.</p>
+<p>For example, the included base-70 custom number set, <a class="el" href="classWeirdoCustomDigits.html#a8c8d9489ee99cc5f5ba726125e5a0de8" title="Digits for radixes up to base 70 (including bc and gmp up to base 36) ">WeirdoCustomDigits::DIGITS_70</a>, includes all of the base62 digits (0-9, a-z, A-Z), but adds eight ASCII symbols. Such a base-70 number could contain millions of digits! </p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="files"></a>
 Files</h2></td></tr>
@@ -169,7 +127,7 @@ Classes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 11 2014 16:05:27 for WeirdoCustomDigits by
+    <li class="footer">Generated on Tue Mar 11 2014 14:14:21 for WeirdoCustomDigits by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
     <li class="footer center">© 2014 WeirdoSoft</li>
