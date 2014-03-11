@@ -1,0 +1,28 @@
+var classWeirdoCustomDigitsBc =
+[
+    [ "__construct", "classWeirdoCustomDigitsBc.html#a01a90b7f812d783664df0dc841a3107a", null ],
+    [ "_getBitsNeededForRangeInternal", "classWeirdoCustomDigitsBc.html#a8ba31c62a3d6f469e887b43126f7d9b0", null ],
+    [ "_getRangeNeededForCustomDigits", "classWeirdoCustomDigitsBc.html#a2b41261252c0f4beee0f8c565a7f7f12", null ],
+    [ "_initStatic", "classWeirdoCustomDigitsBc.html#a6749586b139bc1a41eaca1fb6fd4698a", null ],
+    [ "binFromDecimal", "classWeirdoCustomDigitsBc.html#afe99501afb3e897b8f13d6fd1099994b", null ],
+    [ "customFromDecimal", "classWeirdoCustomDigitsBc.html#a5f8844e66f28e59bb9f0e7535e06dea0", null ],
+    [ "customFromHex", "classWeirdoCustomDigitsBc.html#a57ad87f43a94767e214f70a46d072d5b", null ],
+    [ "customFromInternal", "classWeirdoCustomDigitsBc.html#abf1eb9b3d126656c55c1949201454451", null ],
+    [ "customRandomDigits", "classWeirdoCustomDigitsBc.html#aa8e5e1df88474a050dbbe642d0c3ebba", null ],
+    [ "customRandomFromInternalRange", "classWeirdoCustomDigitsBc.html#a81f15bdd161859d903f7cc3183291f2e", null ],
+    [ "decimalFromBin", "classWeirdoCustomDigitsBc.html#a5fd321cbc651e53e37369a9496f15311", null ],
+    [ "decimalFromCustom", "classWeirdoCustomDigitsBc.html#a8fd836ea1760bd53784597bb3d92d26d", null ],
+    [ "decimalFromHex", "classWeirdoCustomDigitsBc.html#ac950aa9ad9b74650a7e3087bee311202", null ],
+    [ "decimalFromInternal", "classWeirdoCustomDigitsBc.html#ab57c0442c9d5ae661941a769edf0b03c", null ],
+    [ "hexFromCustom", "classWeirdoCustomDigitsBc.html#a708791777a7dea52bb555439c9fe0c77", null ],
+    [ "hexFromDecimal", "classWeirdoCustomDigitsBc.html#af57f071b213e0c92967a3b41b6eb1b16", null ],
+    [ "hexFromInternal", "classWeirdoCustomDigitsBc.html#aa159f4e001d3eec4e32d9df010c8aacf", null ],
+    [ "internalFromCustom", "classWeirdoCustomDigitsBc.html#a293c5ac85e275d139dec2eb4e766efd1", null ],
+    [ "internalFromDecimal", "classWeirdoCustomDigitsBc.html#a83132e60b765356202e105e3080da60e", null ],
+    [ "internalFromHex", "classWeirdoCustomDigitsBc.html#a34cfc5ae854a0151feb27b1e26bf08bd", null ],
+    [ "$_bindecChunkSize", "classWeirdoCustomDigitsBc.html#a9153f39607b3fdb20bfe411adb0d219a", null ],
+    [ "$_dechexDivisor", "classWeirdoCustomDigitsBc.html#a05fd5163139332cb541f3855253e82d3", null ],
+    [ "$_hexChunkPaddingFormat", "classWeirdoCustomDigitsBc.html#aff2cf89ac07ecdf6676fb664a6801725", null ],
+    [ "$_hexdecChunkSize", "classWeirdoCustomDigitsBc.html#a6f4587becc561f8c91f7fe4035c7000e", null ],
+    [ "$maximumValue", "classWeirdoCustomDigitsBc.html#a7fd6fa3d7f86903809a664c09214c1b1", null ]
+];

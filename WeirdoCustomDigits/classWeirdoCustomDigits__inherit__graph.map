@@ -1,0 +1,5 @@
+<map id="WeirdoCustomDigits" name="WeirdoCustomDigits">
+<area shape="rect" id="node2" href="$classWeirdoCustomDigitsBc.html" title="Implementation of WeirdoCustomDigits using the bc extension for arithmetic. " alt="" coords="5,83,163,111"/>
+<area shape="rect" id="node3" href="$classWeirdoCustomDigitsGmp.html" title="Implementation of WeirdoCustomDigits using the gmp extension for arithmetic. " alt="" coords="188,83,359,111"/>
+<area shape="rect" id="node4" href="$classWeirdoCustomDigitsInt.html" title="Implementation of WeirdoCustomDigits using built&#45;in integer arithmetic. " alt="" coords="383,83,540,111"/>
+</map>

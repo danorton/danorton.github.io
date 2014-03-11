@@ -1,0 +1,968 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<tagfile>
+  <compound kind="file">
+    <name>mainpage.dox</name>
+    <path>/Users/danorton/git/github/danorton/WeirdoCustomDigits/</path>
+    <filename>mainpage_8dox</filename>
+  </compound>
+  <compound kind="file">
+    <name>ut.php</name>
+    <path>/Users/danorton/git/github/danorton/WeirdoCustomDigits/ut/</path>
+    <filename>ut_8php</filename>
+    <member kind="function">
+      <type></type>
+      <name>error_handler</name>
+      <anchorfile>ut_8php.html</anchorfile>
+      <anchor>aaa18033a4da16c1a45dc83aa5ae1173a</anchor>
+      <arglist>($errno, $errstr, $errfile, $errline, $errcontext)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>get_rand</name>
+      <anchorfile>ut_8php.html</anchorfile>
+      <anchor>ad14b3ac095b5c0bc5c0d65de7b06cf75</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>getException</name>
+      <anchorfile>ut_8php.html</anchorfile>
+      <anchor>a1374fd1f18a6ac31e1a38d71993c044f</anchor>
+      <arglist>($context, $fn)</arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>$customResults</name>
+      <anchorfile>ut_8php.html</anchorfile>
+      <anchor>af1d65fb1af1d9dbb9ed890761728a4c2</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>$debug</name>
+      <anchorfile>ut_8php.html</anchorfile>
+      <anchor>a85ae3e64cd40e9564adceb010085e9dd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>$failures</name>
+      <anchorfile>ut_8php.html</anchorfile>
+      <anchor>ad511f4eeab6abd500279ac610b3cc78f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>$randomDecimalStrings</name>
+      <anchorfile>ut_8php.html</anchorfile>
+      <anchor>acfe09647a963ab712f7f56d05cc5907e</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>for($i=0;$i&lt; 10000;$i++)</type>
+      <name>$randomDecimalStrings</name>
+      <anchorfile>ut_8php.html</anchorfile>
+      <anchor>a097f02952754f925853d6e1d20dadaa6</anchor>
+      <arglist>[]</arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>$randomInts</name>
+      <anchorfile>ut_8php.html</anchorfile>
+      <anchor>a06d7d9fe45a5a74077f89ae89a54e895</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>for($i=0;$i&lt; 10000;$i++)</type>
+      <name>$randomInts</name>
+      <anchorfile>ut_8php.html</anchorfile>
+      <anchor>ab99af43600faec9618d0a286aa862d01</anchor>
+      <arglist>[]</arglist>
+    </member>
+  </compound>
+  <compound kind="file">
+    <name>WeirdoCustomDigits.php</name>
+    <path>/Users/danorton/git/github/danorton/WeirdoCustomDigits/</path>
+    <filename>WeirdoCustomDigits_8php</filename>
+    <class kind="class">WeirdoCustomDigits</class>
+    <docanchor file="index">License</docanchor>
+  </compound>
+  <compound kind="file">
+    <name>WeirdoCustomDigitsBc.php</name>
+    <path>/Users/danorton/git/github/danorton/WeirdoCustomDigits/</path>
+    <filename>WeirdoCustomDigitsBc_8php</filename>
+    <class kind="class">WeirdoCustomDigitsBc</class>
+    <docanchor file="index">License</docanchor>
+  </compound>
+  <compound kind="file">
+    <name>WeirdoCustomDigitsGmp.php</name>
+    <path>/Users/danorton/git/github/danorton/WeirdoCustomDigits/</path>
+    <filename>WeirdoCustomDigitsGmp_8php</filename>
+    <class kind="class">WeirdoCustomDigitsGmp</class>
+    <docanchor file="index">License</docanchor>
+  </compound>
+  <compound kind="file">
+    <name>WeirdoCustomDigitsInt.php</name>
+    <path>/Users/danorton/git/github/danorton/WeirdoCustomDigits/</path>
+    <filename>WeirdoCustomDigitsInt_8php</filename>
+    <class kind="class">WeirdoCustomDigitsInt</class>
+    <docanchor file="index">License</docanchor>
+  </compound>
+  <compound kind="group">
+    <name>WeirdoCustomDigits</name>
+    <title>WeirdoCustomDigits</title>
+    <filename>group__WeirdoCustomDigits.html</filename>
+    <file>WeirdoCustomDigits.php</file>
+    <file>WeirdoCustomDigitsBc.php</file>
+    <file>WeirdoCustomDigitsGmp.php</file>
+    <file>WeirdoCustomDigitsInt.php</file>
+    <class kind="class">WeirdoCustomDigits</class>
+    <class kind="class">WeirdoCustomDigitsBc</class>
+    <class kind="class">WeirdoCustomDigitsGmp</class>
+    <class kind="class">WeirdoCustomDigitsInt</class>
+  </compound>
+  <compound kind="class">
+    <name>WeirdoCustomDigits</name>
+    <filename>classWeirdoCustomDigits.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>__construct</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a26f1ce867178e2c08d641e84b5603260</anchor>
+      <arglist>($digits=null, $radix=null, $use_uc=true)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>customFromDecimal</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>aa5e72cd4334fbd443bd46e6938d667fe</anchor>
+      <arglist>($decimalNumber, $minCustomDigits=1)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>customFromHex</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a29954ea57b845ad1ef45c5e41eb3e3af</anchor>
+      <arglist>($hexNumber, $minCustomDigits=1)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>customFromInternal</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a92218992c3de1e317a09486c3b626192</anchor>
+      <arglist>($internal, $minCustomDigits=1)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>customRandomDigits</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>aff7c862bfad05d654dfefb4adae630ee</anchor>
+      <arglist>($nDigits)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>customRandomFromInternalRange</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a252504242c7aef8bf5758dc3765f9ca7</anchor>
+      <arglist>($rangeInternal)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>decimalFromCustom</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a584b22192626cf22f324983b48f2240f</anchor>
+      <arglist>($customNumber)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>decimalFromInternal</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>ada54ed246d7576893a3d3747a9c81af1</anchor>
+      <arglist>($internal)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>hexFromCustom</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a3a4b1fc7cf96854c960d7c17ea87fea0</anchor>
+      <arglist>($customNumber)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>hexFromInternal</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a8232214584466e67457fa155de28a267</anchor>
+      <arglist>($internal)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>hexFromRandomBits</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a1395ee7f993b165296ab3fe0fe621058</anchor>
+      <arglist>($nBits)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>init</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a43e5d04aad1331c0f0615168182ecaba</anchor>
+      <arglist>($digits=null, $radix=null, $use_uc=true)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>internalFromCustom</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a900ac3ec479e4c15f5147a57e9f4922a</anchor>
+      <arglist>($customNumber)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>internalFromDecimal</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a34a9c1290875f06438bdd9184a230f89</anchor>
+      <arglist>($decimalNumber)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>internalFromHex</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>ab2db0f50fb564cf1ca229970d59212f1</anchor>
+      <arglist>($hexNumber)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>validateCustomDigit</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a3c6d6984440786337bbc4776e7c7ad8b</anchor>
+      <arglist>($customNumberDigit)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>validateCustomNumber</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>ac3127351f4a56a52dcb47ad561225a32</anchor>
+      <arglist>($customNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>_initStatic</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>afa056ff003de4f14f2e046d35ccefb42</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>binFromDecimal</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>acf75d2a3194f822a00660bec8ed8058d</anchor>
+      <arglist>($decimalNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>binFromHex</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>aa70e8cbaf4480520c52dda8616cac8c7</anchor>
+      <arglist>($hexNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>decimalFromBin</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>afa521671a669f14e417c2d8dacc4d61e</anchor>
+      <arglist>($binNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>decimalFromHex</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>ac3435ca46063bb848c22ce7ae719c10f</anchor>
+      <arglist>($hexNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>hexFromBin</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a51d6a22cb1dd3aa4e8a1fd8fcf420bf4</anchor>
+      <arglist>($binNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>hexFromDecimal</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>ada12b8d8afcb11057be5f9970e240cdc</anchor>
+      <arglist>($decimalNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>uc_str_split</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>abc888d8d5cfc06d173fbcce6bc8d48c0</anchor>
+      <arglist>($str)</arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>$allowNonCryptoRandom</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a95fcbc33c5644c1fe01157b11bc389af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>DIGITS_10_ARABIC_EAST</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a812b07e5eb35e177543dd512d2e4e76f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>DIGITS_51_READABLE</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>ae324faa03b7980dbf9804693c88fb495</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>DIGITS_62_GMP</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>aad7d2c22ccd930ed9e6aa02630787ce8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>DIGITS_70</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a8c8d9489ee99cc5f5ba726125e5a0de8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>IEEE_754_SIGNIFICAND_BITS</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a5ee38c9d1adaf5f9c580749b2b905d53</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>VERSION</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a9b73bc03fbeb1d2c37e24043cf801ef1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static</type>
+      <name>$maximumValue</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>aafb6b752cf24438a00f52f5aa79ab015</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static</type>
+      <name>$phpIntegerMaxBits</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>abfe2a78be45c9913129bd0038d30c123</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>_getBitsNeededForRangeInternal</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a303bee696cf1652506c5b4303c40a3c3</anchor>
+      <arglist>($rangeInternal)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>_getRangeNeededForCustomDigits</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a591d3e3df4df5af4355fa646f0e83d73</anchor>
+      <arglist>($nDigits)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>_trim_array_lru</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>adfb939841eef35225e9c22b1eeae6379</anchor>
+      <arglist>(&amp;$array, $maxCount, $chunkSize)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>str_split</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a92e2b8988800645419f353705d550b9d</anchor>
+      <arglist>($str)</arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type></type>
+      <name>$_bitsNeededForRange</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a347582c6d42f674325a4ac4d52798695</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type></type>
+      <name>$_digitsArray</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a72c7b681760dbc26c2a1477431f1e087</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type></type>
+      <name>$_digitValues</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a3332ff75e52c7720c1e2b9a776e48a10</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type></type>
+      <name>$_radix</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>ad030e8f31cb1c7c907a38362f11e02d7</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected">
+      <type></type>
+      <name>$_rangeNeededForDigits</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a2336373dc92ca35612103532b90bc21b</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected" static="yes">
+      <type>static</type>
+      <name>$_binChunkPaddingFormat</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a4a8e4c2592e1012c1ef3450d9d3c4792</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected" static="yes">
+      <type>static</type>
+      <name>$_binhexChunkSize</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a04ec433419e8741ee60e60af15d1051f</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected" static="yes">
+      <type>static</type>
+      <name>$_hexbinChunkSize</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>aa6cda1067fe7cc37c735fe8927af94af</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="protected" static="yes">
+      <type>static</type>
+      <name>$_hexChunkPaddingFormat</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a15eb83cba987ae8e160db812f0140967</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="private">
+      <type></type>
+      <name>$_fn</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a5f0bbf2abe4a79a8b799cad4805201cf</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="private">
+      <type></type>
+      <name>$_is_using_uc</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a9ee8a93dc70f106b5a79ea2413df7775</anchor>
+      <arglist></arglist>
+    </member>
+    <docanchor file="classWeirdoCustomDigitsInt">Requirements</docanchor>
+    <docanchor file="classWeirdoCustomDigitsInt">Limitations</docanchor>
+  </compound>
+  <compound kind="class">
+    <name>WeirdoCustomDigitsBc</name>
+    <filename>classWeirdoCustomDigitsBc.html</filename>
+    <base>WeirdoCustomDigits</base>
+    <member kind="function">
+      <type></type>
+      <name>__construct</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>a01a90b7f812d783664df0dc841a3107a</anchor>
+      <arglist>($digits=null, $radix=null, $use_uc=true)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>customFromDecimal</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>a5f8844e66f28e59bb9f0e7535e06dea0</anchor>
+      <arglist>($decimalNumber, $minCustomDigits=1)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>customFromHex</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>a57ad87f43a94767e214f70a46d072d5b</anchor>
+      <arglist>($hexNumber, $minCustomDigits=1)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>customFromInternal</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>abf1eb9b3d126656c55c1949201454451</anchor>
+      <arglist>($internal, $minCustomDigits=1)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>customRandomDigits</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>aa8e5e1df88474a050dbbe642d0c3ebba</anchor>
+      <arglist>($nDigits)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>customRandomFromInternalRange</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>a81f15bdd161859d903f7cc3183291f2e</anchor>
+      <arglist>($rangeInternal)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>decimalFromCustom</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>a8fd836ea1760bd53784597bb3d92d26d</anchor>
+      <arglist>($customNumber)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>decimalFromInternal</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>ab57c0442c9d5ae661941a769edf0b03c</anchor>
+      <arglist>($internal)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>hexFromCustom</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>a708791777a7dea52bb555439c9fe0c77</anchor>
+      <arglist>($customNumber)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>hexFromInternal</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>aa159f4e001d3eec4e32d9df010c8aacf</anchor>
+      <arglist>($internal)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>internalFromCustom</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>a293c5ac85e275d139dec2eb4e766efd1</anchor>
+      <arglist>($customNumber)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>internalFromDecimal</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>a83132e60b765356202e105e3080da60e</anchor>
+      <arglist>($decimalNumber)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>internalFromHex</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>a34cfc5ae854a0151feb27b1e26bf08bd</anchor>
+      <arglist>($hexNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>_initStatic</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>a6749586b139bc1a41eaca1fb6fd4698a</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>binFromDecimal</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>afe99501afb3e897b8f13d6fd1099994b</anchor>
+      <arglist>($decimalNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>decimalFromBin</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>a5fd321cbc651e53e37369a9496f15311</anchor>
+      <arglist>($binNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>decimalFromHex</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>ac950aa9ad9b74650a7e3087bee311202</anchor>
+      <arglist>($hexNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>hexFromDecimal</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>af57f071b213e0c92967a3b41b6eb1b16</anchor>
+      <arglist>($decimalNumber)</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static</type>
+      <name>$maximumValue</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>a7fd6fa3d7f86903809a664c09214c1b1</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>_getBitsNeededForRangeInternal</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>a8ba31c62a3d6f469e887b43126f7d9b0</anchor>
+      <arglist>($rangeInternal)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>_getRangeNeededForCustomDigits</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>a2b41261252c0f4beee0f8c565a7f7f12</anchor>
+      <arglist>($nDigits)</arglist>
+    </member>
+    <member kind="variable" protection="protected" static="yes">
+      <type>static</type>
+      <name>$_hexChunkPaddingFormat</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>aff2cf89ac07ecdf6676fb664a6801725</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="private" static="yes">
+      <type>static</type>
+      <name>$_bindecChunkSize</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>a9153f39607b3fdb20bfe411adb0d219a</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="private" static="yes">
+      <type>static</type>
+      <name>$_dechexDivisor</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>a05fd5163139332cb541f3855253e82d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="private" static="yes">
+      <type>static</type>
+      <name>$_hexdecChunkSize</name>
+      <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
+      <anchor>a6f4587becc561f8c91f7fe4035c7000e</anchor>
+      <arglist></arglist>
+    </member>
+    <docanchor file="classWeirdoCustomDigitsInt">Requirements</docanchor>
+    <docanchor file="classWeirdoCustomDigitsInt">Limitations</docanchor>
+  </compound>
+  <compound kind="class">
+    <name>WeirdoCustomDigitsGmp</name>
+    <filename>classWeirdoCustomDigitsGmp.html</filename>
+    <base>WeirdoCustomDigits</base>
+    <member kind="function">
+      <type></type>
+      <name>__construct</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>ab863cf1d7a99ed89de64de75f3803627</anchor>
+      <arglist>($digits=null, $radix=null, $use_uc=true)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>customFromDecimal</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>aa973747dab9e50b788db511b57c59b14</anchor>
+      <arglist>($decimalNumber, $minCustomDigits=1)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>customFromHex</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>a689b8a9992ab588d13852ded64432827</anchor>
+      <arglist>($hexNumber, $minCustomDigits=1)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>customFromInternal</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>a909ba48f99655b1331cdc6992fab1c33</anchor>
+      <arglist>($internal, $minCustomDigits=1)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>customRandomDigits</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>a8cd9b68a1a7e1df3428bec0eea14e157</anchor>
+      <arglist>($nDigits)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>customRandomFromInternalRange</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>a27de56f5b909b598674e37bbb33e1ec7</anchor>
+      <arglist>($rangeInternal)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>decimalFromCustom</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>a538635a5f4547e264fbfc7a6df6c2328</anchor>
+      <arglist>($customNumber)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>decimalFromInternal</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>ac077ca5afc68a1f9088b8e0b163dac68</anchor>
+      <arglist>($internal)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>hexFromCustom</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>adb5e4db2e35049568d492caa3e68fcbd</anchor>
+      <arglist>($customNumber)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>hexFromInternal</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>ae6a47bbeb9a579433beee28fbacc7e77</anchor>
+      <arglist>($internal)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>init</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>a9acf0224b89e4dc20971e71a8d6d13bc</anchor>
+      <arglist>($digits=null, $radix=null, $use_uc=true)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>internalFromCustom</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>af36d4f753aed45d1acd557ef3ae79dc0</anchor>
+      <arglist>($customNumber, $minCustomDigits=1)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>internalFromDecimal</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>a5ad733adf5c97019754b37f1979b180c</anchor>
+      <arglist>($decimalNumber)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>internalFromHex</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>a99491d53a7611f9a18970544a65f5527</anchor>
+      <arglist>($hexNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>binFromDecimal</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>aa8cacd0644400a4f55b58b000f3f834c</anchor>
+      <arglist>($decimalNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>decimalFromBin</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>afa57ce13afaf724dbc2a8fa54b03bfb7</anchor>
+      <arglist>($binNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>decimalFromHex</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>ad7ff33ba85fdba87f92bc4cf3127dbb8</anchor>
+      <arglist>($hexNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>hexFromDecimal</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>a58928e123bf8bbe61c076646bb2d6c61</anchor>
+      <arglist>($decimalNumber)</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static</type>
+      <name>$maximumValue</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>ab807f7244913a30e6d28c993be80b767</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>_getBitsNeededForRangeInternal</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>a11c69eb219483c5c9dc15284c75de120</anchor>
+      <arglist>($rangeInternal)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>_getRangeNeededForCustomDigits</name>
+      <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
+      <anchor>ae9874bc49491a5ce52ed820f75430981</anchor>
+      <arglist>($nDigits)</arglist>
+    </member>
+    <docanchor file="classWeirdoCustomDigitsInt">Requirements</docanchor>
+    <docanchor file="classWeirdoCustomDigitsInt">Limitations</docanchor>
+  </compound>
+  <compound kind="class">
+    <name>WeirdoCustomDigitsInt</name>
+    <filename>classWeirdoCustomDigitsInt.html</filename>
+    <base>WeirdoCustomDigits</base>
+    <member kind="function">
+      <type></type>
+      <name>customFromDecimal</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>a4a6c44265a87872e0b00045ddad1a96a</anchor>
+      <arglist>($decimalNumber, $minCustomDigits=1)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>customFromHex</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>a3860310d141b28ee8bf062bea3499b02</anchor>
+      <arglist>($hexNumber, $minCustomDigits=1)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>customFromInternal</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>a6f954247105b9531e09fc737bba1115c</anchor>
+      <arglist>($internal, $minCustomDigits=1)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>customRandomDigits</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>a1937f72fd8bfaa523770f1b3ca579c46</anchor>
+      <arglist>($nDigits)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>customRandomFromInternalRange</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>a43deb2de764cf817bb0030fa4abc1826</anchor>
+      <arglist>($rangeInternal)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>decimalFromCustom</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>a1cb44b39b6adc28ac97afb47e25efd29</anchor>
+      <arglist>($customNumber)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>decimalFromInternal</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>a6b48471533359a46c59d180bcc2cecaf</anchor>
+      <arglist>($internal)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>hexFromCustom</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>a427cbf6aca091d5476c589c29756f431</anchor>
+      <arglist>($customNumber)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>hexFromInternal</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>a58afd2eb003c36ff7fafcbc079fc9361</anchor>
+      <arglist>($internal)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>internalFromCustom</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>aed996ddcdb6d32c186d606103f30b8d9</anchor>
+      <arglist>($customNumber)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>internalFromDecimal</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>aac38ac8593ab62179d0b0e91d36bade9</anchor>
+      <arglist>($decimalNumber)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>internalFromHex</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>ad9ff66a2ff85644f18fc3b77154154c6</anchor>
+      <arglist>($hexNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>_initStatic</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>aedab5a5e3b3666c8e1257ca1d28810b0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>binFromDecimal</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>a5874e04dae609063264f81c510fa9b50</anchor>
+      <arglist>($decimalNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>decimalFromBin</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>adfa7000d489be1545001f8eae83c93de</anchor>
+      <arglist>($binNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>decimalFromHex</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>a2996eacc1a5eb4d8773100ceb3dc3d68</anchor>
+      <arglist>($hexNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>hexFromDecimal</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>a08a956f987421f461282cae59a66e955</anchor>
+      <arglist>($decimalNumber)</arglist>
+    </member>
+    <member kind="variable" static="yes">
+      <type>static</type>
+      <name>$maximumValue</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>af2310c33012fefe4151d90e2ef2285c8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>_getBitsNeededForRangeInternal</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>ad29d2a8851e7aee3b8d06a708fd7b469</anchor>
+      <arglist>($rangeInternal)</arglist>
+    </member>
+    <member kind="function" protection="protected">
+      <type></type>
+      <name>_getRangeNeededForCustomDigits</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>aad3b2131e25f698f486a532dadbb583a</anchor>
+      <arglist>($nDigitsDecimal)</arglist>
+    </member>
+    <docanchor file="classWeirdoCustomDigitsInt">Requirements</docanchor>
+    <docanchor file="classWeirdoCustomDigitsInt">Limitations</docanchor>
+  </compound>
+  <compound kind="dir">
+    <name>ut</name>
+    <path>/Users/danorton/git/github/danorton/WeirdoCustomDigits/ut/</path>
+    <filename>dir_fc38c2ad737643d13f0a261dcf852edb.html</filename>
+    <file>ut.php</file>
+  </compound>
+  <compound kind="page">
+    <name>index</name>
+    <title></title>
+    <filename>index</filename>
+    <docanchor file="index">License</docanchor>
+  </compound>
+</tagfile>
