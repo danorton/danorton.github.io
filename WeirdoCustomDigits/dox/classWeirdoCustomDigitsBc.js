@@ -8,7 +8,7 @@ var classWeirdoCustomDigitsBc =
     [ "customFromDecimal", "classWeirdoCustomDigitsBc.html#a5f8844e66f28e59bb9f0e7535e06dea0", null ],
     [ "customFromHex", "classWeirdoCustomDigitsBc.html#a57ad87f43a94767e214f70a46d072d5b", null ],
     [ "customFromInternal", "classWeirdoCustomDigitsBc.html#abf1eb9b3d126656c55c1949201454451", null ],
-    [ "customRandomDigits", "classWeirdoCustomDigitsBc.html#aa8e5e1df88474a050dbbe642d0c3ebba", null ],
+    [ "customRandomDigits", "classWeirdoCustomDigitsBc.html#a71be3157a3c7855cdc5a26e8cb647a64", null ],
     [ "customRandomFromInternalRange", "classWeirdoCustomDigitsBc.html#a81f15bdd161859d903f7cc3183291f2e", null ],
     [ "decimalFromBin", "classWeirdoCustomDigitsBc.html#a5fd321cbc651e53e37369a9496f15311", null ],
     [ "decimalFromCustom", "classWeirdoCustomDigitsBc.html#a8fd836ea1760bd53784597bb3d92d26d", null ],

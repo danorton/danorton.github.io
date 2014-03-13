@@ -20,8 +20,8 @@
       <type></type>
       <name>get_rand</name>
       <anchorfile>ut_8php.html</anchorfile>
-      <anchor>ad14b3ac095b5c0bc5c0d65de7b06cf75</anchor>
-      <arglist>()</arglist>
+      <anchor>a02b0bf067b816eea7de6df8868c14962</anchor>
+      <arglist>($mask)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -29,6 +29,13 @@
       <anchorfile>ut_8php.html</anchorfile>
       <anchor>a1374fd1f18a6ac31e1a38d71993c044f</anchor>
       <arglist>($context, $fn)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>testBase64</name>
+      <anchorfile>ut_8php.html</anchorfile>
+      <anchor>a4499e1bb3922533b92225826154c46dc</anchor>
+      <arglist>($className)</arglist>
     </member>
     <member kind="variable">
       <type></type>
@@ -108,18 +115,6 @@
     <class kind="class">WeirdoCustomDigitsInt</class>
     <docanchor file="index">License</docanchor>
   </compound>
-  <compound kind="file">
-    <name>x.php</name>
-    <path>/Users/danorton/git/github/danorton/WeirdoCustomDigits/</path>
-    <filename>x_8php</filename>
-    <member kind="variable">
-      <type></type>
-      <name>$x</name>
-      <anchorfile>x_8php.html</anchorfile>
-      <anchor>af3a16c5f0dd7a74cf9acf6a49fff73a7</anchor>
-      <arglist></arglist>
-    </member>
-  </compound>
   <compound kind="group">
     <name>WeirdoCustomDigits</name>
     <title>WeirdoCustomDigits</title>
@@ -169,10 +164,17 @@
     </member>
     <member kind="function">
       <type></type>
+      <name>customFromRaw</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a933848e0527c6c733e9f0c2be20da811</anchor>
+      <arglist>($rawString, $minCustomDigits=1)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
       <name>customRandomDigits</name>
       <anchorfile>classWeirdoCustomDigits.html</anchorfile>
-      <anchor>aff7c862bfad05d654dfefb4adae630ee</anchor>
-      <arglist>($nDigits)</arglist>
+      <anchor>abe6057491f632749d831434359ebf6ca</anchor>
+      <arglist>($nDigits, $allowOverflow=false)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -246,6 +248,13 @@
     </member>
     <member kind="function">
       <type></type>
+      <name>rawFromCustom</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>ab2752064f503dcf1c8df333dad868163</anchor>
+      <arglist>($customNumber)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
       <name>validateCustomDigit</name>
       <anchorfile>classWeirdoCustomDigits.html</anchorfile>
       <anchor>a3c6d6984440786337bbc4776e7c7ad8b</anchor>
@@ -309,6 +318,20 @@
     </member>
     <member kind="function" static="yes">
       <type>static</type>
+      <name>hexFromRaw</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>add8756ecf1fd191f079a3705d0bd4052</anchor>
+      <arglist>($rawString)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>rawFromHex</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a3151c15d1019b06dbc2428421d336594</anchor>
+      <arglist>($hexNumber)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
       <name>uc_str_split</name>
       <anchorfile>classWeirdoCustomDigits.html</anchorfile>
       <anchor>abc888d8d5cfc06d173fbcce6bc8d48c0</anchor>
@@ -347,6 +370,13 @@
       <name>DIGITS_70</name>
       <anchorfile>classWeirdoCustomDigits.html</anchorfile>
       <anchor>a8c8d9489ee99cc5f5ba726125e5a0de8</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>DIGITS_BASE64</name>
+      <anchorfile>classWeirdoCustomDigits.html</anchorfile>
+      <anchor>a0c1196d25042b24bb9b6b2e0a965d1e6</anchor>
       <arglist></arglist>
     </member>
     <member kind="variable">
@@ -519,8 +549,8 @@
       <type></type>
       <name>customRandomDigits</name>
       <anchorfile>classWeirdoCustomDigitsBc.html</anchorfile>
-      <anchor>aa8e5e1df88474a050dbbe642d0c3ebba</anchor>
-      <arglist>($nDigits)</arglist>
+      <anchor>a71be3157a3c7855cdc5a26e8cb647a64</anchor>
+      <arglist>($nDigits, $allowOverflow=false)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -701,8 +731,8 @@
       <type></type>
       <name>customRandomDigits</name>
       <anchorfile>classWeirdoCustomDigitsGmp.html</anchorfile>
-      <anchor>a8cd9b68a1a7e1df3428bec0eea14e157</anchor>
-      <arglist>($nDigits)</arglist>
+      <anchor>a257d18d247fcb2b5028d2692628bb71c</anchor>
+      <arglist>($nDigits, $allowOverflow=false)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -848,8 +878,8 @@
       <type></type>
       <name>customRandomDigits</name>
       <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
-      <anchor>a1937f72fd8bfaa523770f1b3ca579c46</anchor>
-      <arglist>($nDigits)</arglist>
+      <anchor>abf9e06ad7c43544b76038a23048dba2c</anchor>
+      <arglist>($nDigits, $allowOverflow=false)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -885,6 +915,13 @@
       <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
       <anchor>a58afd2eb003c36ff7fafcbc079fc9361</anchor>
       <arglist>($internal)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>init</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>a3e98e45dccbca403decdf31720856c96</anchor>
+      <arglist>($digits=null, $radix=null, $use_uc=true)</arglist>
     </member>
     <member kind="function">
       <type></type>
@@ -962,6 +999,13 @@
       <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
       <anchor>aad3b2131e25f698f486a532dadbb583a</anchor>
       <arglist>($nDigitsDecimal)</arglist>
+    </member>
+    <member kind="variable" protection="private">
+      <type></type>
+      <name>$_maxCustomRandomDigits</name>
+      <anchorfile>classWeirdoCustomDigitsInt.html</anchorfile>
+      <anchor>a0617abf83308d6aea46a65d249536257</anchor>
+      <arglist></arglist>
     </member>
     <docanchor file="group__WeirdoCustomDigits">Requirements</docanchor>
     <docanchor file="group__WeirdoCustomDigits">Limitations</docanchor>

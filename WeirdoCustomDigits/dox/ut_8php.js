@@ -1,8 +1,9 @@
 var ut_8php =
 [
     [ "error_handler", "ut_8php.html#aaa18033a4da16c1a45dc83aa5ae1173a", null ],
-    [ "get_rand", "ut_8php.html#ad14b3ac095b5c0bc5c0d65de7b06cf75", null ],
+    [ "get_rand", "ut_8php.html#a02b0bf067b816eea7de6df8868c14962", null ],
     [ "getException", "ut_8php.html#a1374fd1f18a6ac31e1a38d71993c044f", null ],
+    [ "testBase64", "ut_8php.html#a4499e1bb3922533b92225826154c46dc", null ],
     [ "$customResults", "ut_8php.html#af1d65fb1af1d9dbb9ed890761728a4c2", null ],
     [ "$debug", "ut_8php.html#a85ae3e64cd40e9564adceb010085e9dd", null ],
     [ "$failures", "ut_8php.html#ad511f4eeab6abd500279ac610b3cc78f", null ],

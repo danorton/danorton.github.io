@@ -7,7 +7,7 @@ var classWeirdoCustomDigitsInt =
     [ "customFromDecimal", "classWeirdoCustomDigitsInt.html#a4a6c44265a87872e0b00045ddad1a96a", null ],
     [ "customFromHex", "classWeirdoCustomDigitsInt.html#a3860310d141b28ee8bf062bea3499b02", null ],
     [ "customFromInternal", "classWeirdoCustomDigitsInt.html#a6f954247105b9531e09fc737bba1115c", null ],
-    [ "customRandomDigits", "classWeirdoCustomDigitsInt.html#a1937f72fd8bfaa523770f1b3ca579c46", null ],
+    [ "customRandomDigits", "classWeirdoCustomDigitsInt.html#abf9e06ad7c43544b76038a23048dba2c", null ],
     [ "customRandomFromInternalRange", "classWeirdoCustomDigitsInt.html#a43deb2de764cf817bb0030fa4abc1826", null ],
     [ "decimalFromBin", "classWeirdoCustomDigitsInt.html#adfa7000d489be1545001f8eae83c93de", null ],
     [ "decimalFromCustom", "classWeirdoCustomDigitsInt.html#a1cb44b39b6adc28ac97afb47e25efd29", null ],
@@ -16,8 +16,10 @@ var classWeirdoCustomDigitsInt =
     [ "hexFromCustom", "classWeirdoCustomDigitsInt.html#a427cbf6aca091d5476c589c29756f431", null ],
     [ "hexFromDecimal", "classWeirdoCustomDigitsInt.html#a08a956f987421f461282cae59a66e955", null ],
     [ "hexFromInternal", "classWeirdoCustomDigitsInt.html#a58afd2eb003c36ff7fafcbc079fc9361", null ],
+    [ "init", "classWeirdoCustomDigitsInt.html#a3e98e45dccbca403decdf31720856c96", null ],
     [ "internalFromCustom", "classWeirdoCustomDigitsInt.html#aed996ddcdb6d32c186d606103f30b8d9", null ],
     [ "internalFromDecimal", "classWeirdoCustomDigitsInt.html#aac38ac8593ab62179d0b0e91d36bade9", null ],
     [ "internalFromHex", "classWeirdoCustomDigitsInt.html#ad9ff66a2ff85644f18fc3b77154154c6", null ],
+    [ "$_maxCustomRandomDigits", "classWeirdoCustomDigitsInt.html#a0617abf83308d6aea46a65d249536257", null ],
     [ "$maximumValue", "classWeirdoCustomDigitsInt.html#af2310c33012fefe4151d90e2ef2285c8", null ]
 ];

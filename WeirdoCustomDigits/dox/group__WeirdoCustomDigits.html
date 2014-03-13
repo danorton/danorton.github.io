@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">WeirdoCustomDigits
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.0</span>
    </div>
   </td>
  </tr>
@@ -94,15 +94,13 @@ $(document).ready(function(){initNavTree('group__WeirdoCustomDigits.html','');})
 <p>This module provides the <a class="el" href="classWeirdoCustomDigits.html" title="Abstract class for converting custom numbers with arbitrary radixes and digit characters. ">WeirdoCustomDigits</a> abstract PHP class and implementation subclasses, which perform radix conversion on numbers with arbitrary digits. </p>
 <p>The digits of a such a <b>custom number</b> can be any Unicode character, and is not limited to ASCII alphanumerics.</p>
 <p>For example, a base-4 custom number could have the digits, "X", "Y", "Z" &amp; "T", where "X" represents zero (decimal "0"), "Y" represents unity (decimal "1"), "Z" represents the next natural digit (decimal "2") &amp;c. The decimal number 105 expressed as such a custom number would be "YZZY". Expanding the digits as a polynomial produces</p>
-<ul>
-<li>"Y"×4³ + "Z"×4² + "Z"×4¹ + "Y"×5⁰ = 1×64 + 2×16 + 2×4 + 1×1 = 105</li>
-</ul>
+<p>-<span style="font-size: 150%">"Y"×4³ + "Z"×4² + "Z"×4¹ + "Y"×4⁰ = 1×64 + 2×16 + 2×4 + 1×1 = 105</span></p>
 <p>As "X" is the zero digit, it can be repeated any number of times before a number, just as with leading decimal zeros before a decimal number. For example, "YZZY" is numerically identical to "XYZZY".</p>
 <p>Code example: </p>
-<div class="fragment"><div class="line">require_once(<span class="stringliteral">&#39;WeirdoCustomDigitsInt.php&#39;</span>);</div>
-<div class="line">$converter = <a class="code" href="classWeirdoCustomDigitsInt.html">WeirdoCustomDigitsInt</a>(<span class="stringliteral">&#39;XYZT&#39;</span>);</div>
-<div class="line">$number = $converter-&gt;customFromDecimal(105);</div>
-<div class="line">var_dump($number);</div>
+<div class="fragment"><div class="line">require_once(<span class="stringliteral">&#39;WeirdoCustomDigitsInt.php&#39;</span>) ;</div>
+<div class="line">$converter = <a class="code" href="classWeirdoCustomDigitsInt.html">WeirdoCustomDigitsInt</a>(<span class="stringliteral">&#39;XYZT&#39;</span>) ;</div>
+<div class="line">$number = $converter-&gt;customFromDecimal(105) ;</div>
+<div class="line">var_dump($number) ;</div>
 </div><!-- fragment --><p> Output: </p>
 <div class="fragment"><div class="line">string(4) <span class="stringliteral">&quot;YZZY&quot;</span></div>
 </div><!-- fragment --><p>When working with numbers from bases in the range from 2 to 36, it might be more practical to use the PHP function <a href="http://php.net/base_convert">base_convert()</a> and then substitute the characters using <a href="http://php.net/base_convert">str_replace()</a>. (If the gmp extension is available, you could do a similar conversion for bases up to base 62.) Consequently, this module is more practical for number bases above 36 (or above base 62, if gmp is available).</p>
@@ -120,7 +118,7 @@ Implementation subclasses</h1>
 <p>The classes also provide methods for producing random numbers of uniform distribution, expressed as a custom number.</p>
 <p>The module provides several pre-defined radix sets:</p>
 <ul>
-<li><a class="el" href="classWeirdoCustomDigits.html#a8c8d9489ee99cc5f5ba726125e5a0de8" title="Digits for radixes up to base 70 (including bc and gmp up to base 36) ">WeirdoCustomDigits::DIGITS_70</a> - Digits for radixes up to base 70 (compatible with <b>base_convert</b> and gmp up to base 36)</li>
+<li><a class="el" href="classWeirdoCustomDigits.html#a8c8d9489ee99cc5f5ba726125e5a0de8" title="Digits for radixes up to base 70 (compatible with base_convert and gmp up to base 36) ...">WeirdoCustomDigits::DIGITS_70</a> - Digits for radixes up to base 70 (compatible with <b>base_convert</b> and gmp up to base 36)</li>
 <li><a class="el" href="classWeirdoCustomDigits.html#aad7d2c22ccd930ed9e6aa02630787ce8" title="Digits compatibile with gmp from base 37 to base 62. ">WeirdoCustomDigits::DIGITS_62_GMP</a> - Digits for radixes up to base 62 (compatible with gmp from base 37 to base 62)</li>
 <li><a class="el" href="classWeirdoCustomDigits.html#a812b07e5eb35e177543dd512d2e4e76f" title="Arabic decimal digits (UTF-8) ">WeirdoCustomDigits::DIGITS_10_ARABIC_EAST</a> - The Eastern Arabic numerals (٠١٢٣٤٥٦٧٨٩).</li>
 <li><a class="el" href="classWeirdoCustomDigits.html#ae324faa03b7980dbf9804693c88fb495" title="Digits up to base 51 less likely to be misread These consists of a subset of the typical base-62 digi...">WeirdoCustomDigits::DIGITS_51_READABLE</a> - digits that are less likely to be confused with other digits.</li>
@@ -169,7 +167,7 @@ Classes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 11 2014 16:05:27 for WeirdoCustomDigits by
+    <li class="footer">Generated on Wed Mar 12 2014 22:51:35 for WeirdoCustomDigits by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
     <li class="footer center">© 2014 WeirdoSoft</li>

@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">WeirdoCustomDigits
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.0</span>
    </div>
   </td>
  </tr>
@@ -90,6 +90,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="#index_d"><span>d</span></a></li>
       <li><a href="#index_h"><span>h</span></a></li>
       <li><a href="#index_i"><span>i</span></a></li>
+      <li><a href="#index_r"><span>r</span></a></li>
       <li><a href="#index_s"><span>s</span></a></li>
       <li><a href="#index_u"><span>u</span></a></li>
       <li class="current"><a href="#index_v"><span>v</span></a></li>
@@ -150,6 +151,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 </li>
 <li>$_is_using_uc
 : <a class="el" href="classWeirdoCustomDigits.html#a9ee8a93dc70f106b5a79ea2413df7775">WeirdoCustomDigits</a>
+</li>
+<li>$_maxCustomRandomDigits
+: <a class="el" href="classWeirdoCustomDigitsInt.html#a0617abf83308d6aea46a65d249536257">WeirdoCustomDigitsInt</a>
 </li>
 <li>$_radix
 : <a class="el" href="classWeirdoCustomDigits.html#ad030e8f31cb1c7c907a38362f11e02d7">WeirdoCustomDigits</a>
@@ -233,11 +237,14 @@ $(document).ready(function(){initNavTree('functions.html','');});
 , <a class="el" href="classWeirdoCustomDigitsGmp.html#a909ba48f99655b1331cdc6992fab1c33">WeirdoCustomDigitsGmp</a>
 , <a class="el" href="classWeirdoCustomDigitsInt.html#a6f954247105b9531e09fc737bba1115c">WeirdoCustomDigitsInt</a>
 </li>
+<li>customFromRaw()
+: <a class="el" href="classWeirdoCustomDigits.html#a933848e0527c6c733e9f0c2be20da811">WeirdoCustomDigits</a>
+</li>
 <li>customRandomDigits()
-: <a class="el" href="classWeirdoCustomDigits.html#aff7c862bfad05d654dfefb4adae630ee">WeirdoCustomDigits</a>
-, <a class="el" href="classWeirdoCustomDigitsBc.html#aa8e5e1df88474a050dbbe642d0c3ebba">WeirdoCustomDigitsBc</a>
-, <a class="el" href="classWeirdoCustomDigitsGmp.html#a8cd9b68a1a7e1df3428bec0eea14e157">WeirdoCustomDigitsGmp</a>
-, <a class="el" href="classWeirdoCustomDigitsInt.html#a1937f72fd8bfaa523770f1b3ca579c46">WeirdoCustomDigitsInt</a>
+: <a class="el" href="classWeirdoCustomDigits.html#abe6057491f632749d831434359ebf6ca">WeirdoCustomDigits</a>
+, <a class="el" href="classWeirdoCustomDigitsBc.html#a71be3157a3c7855cdc5a26e8cb647a64">WeirdoCustomDigitsBc</a>
+, <a class="el" href="classWeirdoCustomDigitsGmp.html#a257d18d247fcb2b5028d2692628bb71c">WeirdoCustomDigitsGmp</a>
+, <a class="el" href="classWeirdoCustomDigitsInt.html#abf9e06ad7c43544b76038a23048dba2c">WeirdoCustomDigitsInt</a>
 </li>
 <li>customRandomFromInternalRange()
 : <a class="el" href="classWeirdoCustomDigits.html#a252504242c7aef8bf5758dc3765f9ca7">WeirdoCustomDigits</a>
@@ -285,6 +292,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>DIGITS_70
 : <a class="el" href="classWeirdoCustomDigits.html#a8c8d9489ee99cc5f5ba726125e5a0de8">WeirdoCustomDigits</a>
 </li>
+<li>DIGITS_BASE64
+: <a class="el" href="classWeirdoCustomDigits.html#a0c1196d25042b24bb9b6b2e0a965d1e6">WeirdoCustomDigits</a>
+</li>
 </ul>
 
 
@@ -313,6 +323,9 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>hexFromRandomBits()
 : <a class="el" href="classWeirdoCustomDigits.html#a1395ee7f993b165296ab3fe0fe621058">WeirdoCustomDigits</a>
 </li>
+<li>hexFromRaw()
+: <a class="el" href="classWeirdoCustomDigits.html#add8756ecf1fd191f079a3705d0bd4052">WeirdoCustomDigits</a>
+</li>
 </ul>
 
 
@@ -323,6 +336,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <li>init()
 : <a class="el" href="classWeirdoCustomDigits.html#a43e5d04aad1331c0f0615168182ecaba">WeirdoCustomDigits</a>
 , <a class="el" href="classWeirdoCustomDigitsGmp.html#a9acf0224b89e4dc20971e71a8d6d13bc">WeirdoCustomDigitsGmp</a>
+, <a class="el" href="classWeirdoCustomDigitsInt.html#a3e98e45dccbca403decdf31720856c96">WeirdoCustomDigitsInt</a>
 </li>
 <li>internalFromCustom()
 : <a class="el" href="classWeirdoCustomDigits.html#a900ac3ec479e4c15f5147a57e9f4922a">WeirdoCustomDigits</a>
@@ -341,6 +355,16 @@ $(document).ready(function(){initNavTree('functions.html','');});
 , <a class="el" href="classWeirdoCustomDigitsBc.html#a34cfc5ae854a0151feb27b1e26bf08bd">WeirdoCustomDigitsBc</a>
 , <a class="el" href="classWeirdoCustomDigitsGmp.html#a99491d53a7611f9a18970544a65f5527">WeirdoCustomDigitsGmp</a>
 , <a class="el" href="classWeirdoCustomDigitsInt.html#ad9ff66a2ff85644f18fc3b77154154c6">WeirdoCustomDigitsInt</a>
+</li>
+</ul>
+
+
+<h3><a class="anchor" id="index_r"></a>- r -</h3><ul>
+<li>rawFromCustom()
+: <a class="el" href="classWeirdoCustomDigits.html#ab2752064f503dcf1c8df333dad868163">WeirdoCustomDigits</a>
+</li>
+<li>rawFromHex()
+: <a class="el" href="classWeirdoCustomDigits.html#a3151c15d1019b06dbc2428421d336594">WeirdoCustomDigits</a>
 </li>
 </ul>
 
@@ -376,7 +400,7 @@ $(document).ready(function(){initNavTree('functions.html','');});
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Tue Mar 11 2014 16:05:27 for WeirdoCustomDigits by
+    <li class="footer">Generated on Wed Mar 12 2014 22:51:35 for WeirdoCustomDigits by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
     <li class="footer center">© 2014 WeirdoSoft</li>

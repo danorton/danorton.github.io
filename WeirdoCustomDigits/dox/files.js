@@ -4,6 +4,5 @@ var files =
     [ "WeirdoCustomDigits.php", "WeirdoCustomDigits_8php.html", null ],
     [ "WeirdoCustomDigitsBc.php", "WeirdoCustomDigitsBc_8php.html", null ],
     [ "WeirdoCustomDigitsGmp.php", "WeirdoCustomDigitsGmp_8php.html", null ],
-    [ "WeirdoCustomDigitsInt.php", "WeirdoCustomDigitsInt_8php.html", null ],
-    [ "x.php", "x_8php.html", "x_8php" ]
+    [ "WeirdoCustomDigitsInt.php", "WeirdoCustomDigitsInt_8php.html", null ]
 ];

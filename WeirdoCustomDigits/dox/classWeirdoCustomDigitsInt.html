@@ -35,7 +35,7 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">WeirdoCustomDigits
-   &#160;<span id="projectnumber">1.0.0</span>
+   &#160;<span id="projectnumber">1.0</span>
    </div>
   </td>
  </tr>
@@ -95,6 +95,7 @@ $(document).ready(function(){initNavTree('classWeirdoCustomDigitsInt.html','');}
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classWeirdoCustomDigitsInt-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">WeirdoCustomDigitsInt Class Reference<div class="ingroups"><a class="el" href="group__WeirdoCustomDigits.html">WeirdoCustomDigits</a></div></div>  </div>
@@ -129,9 +130,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6f954247105b9531e09fc737bba1115c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigitsInt.html#a6f954247105b9531e09fc737bba1115c">customFromInternal</a> ($internal, $minCustomDigits=1)</td></tr>
 <tr class="memdesc:a6f954247105b9531e09fc737bba1115c"><td class="mdescLeft">&#160;</td><td class="mdescRight">For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#a92218992c3de1e317a09486c3b626192" title="Convert an internally represented number to a custom-number string. ">WeirdoCustomDigits::customFromInternal()</a>.  <a href="#a6f954247105b9531e09fc737bba1115c">More...</a><br/></td></tr>
 <tr class="separator:a6f954247105b9531e09fc737bba1115c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1937f72fd8bfaa523770f1b3ca579c46"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigitsInt.html#a1937f72fd8bfaa523770f1b3ca579c46">customRandomDigits</a> ($nDigits)</td></tr>
-<tr class="memdesc:a1937f72fd8bfaa523770f1b3ca579c46"><td class="mdescLeft">&#160;</td><td class="mdescRight">For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#aff7c862bfad05d654dfefb4adae630ee" title="Get a specified number of random custom-number digits. ">WeirdoCustomDigits::customRandomDigits()</a>.  <a href="#a1937f72fd8bfaa523770f1b3ca579c46">More...</a><br/></td></tr>
-<tr class="separator:a1937f72fd8bfaa523770f1b3ca579c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf9e06ad7c43544b76038a23048dba2c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigitsInt.html#abf9e06ad7c43544b76038a23048dba2c">customRandomDigits</a> ($nDigits, $allowOverflow=false)</td></tr>
+<tr class="memdesc:abf9e06ad7c43544b76038a23048dba2c"><td class="mdescLeft">&#160;</td><td class="mdescRight">For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#abe6057491f632749d831434359ebf6ca" title="Get a specified number of random custom-number digits. ">WeirdoCustomDigits::customRandomDigits()</a>.  <a href="#abf9e06ad7c43544b76038a23048dba2c">More...</a><br/></td></tr>
+<tr class="separator:abf9e06ad7c43544b76038a23048dba2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43deb2de764cf817bb0030fa4abc1826"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigitsInt.html#a43deb2de764cf817bb0030fa4abc1826">customRandomFromInternalRange</a> ($rangeInternal)</td></tr>
 <tr class="memdesc:a43deb2de764cf817bb0030fa4abc1826"><td class="mdescLeft">&#160;</td><td class="mdescRight">For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#a252504242c7aef8bf5758dc3765f9ca7" title="Get a random custom number within specified range. ">WeirdoCustomDigits::customRandomFromInternalRange()</a>.  <a href="#a43deb2de764cf817bb0030fa4abc1826">More...</a><br/></td></tr>
 <tr class="separator:a43deb2de764cf817bb0030fa4abc1826"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -147,6 +148,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a58afd2eb003c36ff7fafcbc079fc9361"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigitsInt.html#a58afd2eb003c36ff7fafcbc079fc9361">hexFromInternal</a> ($internal)</td></tr>
 <tr class="memdesc:a58afd2eb003c36ff7fafcbc079fc9361"><td class="mdescLeft">&#160;</td><td class="mdescRight">For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#a8232214584466e67457fa155de28a267" title="Convert an internally represented number to a hexadecimal string. ">WeirdoCustomDigits::hexFromInternal()</a>.  <a href="#a58afd2eb003c36ff7fafcbc079fc9361">More...</a><br/></td></tr>
 <tr class="separator:a58afd2eb003c36ff7fafcbc079fc9361"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e98e45dccbca403decdf31720856c96"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigitsInt.html#a3e98e45dccbca403decdf31720856c96">init</a> ($digits=null, $radix=null, $use_uc=true)</td></tr>
+<tr class="memdesc:a3e98e45dccbca403decdf31720856c96"><td class="mdescLeft">&#160;</td><td class="mdescRight">For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#a43e5d04aad1331c0f0615168182ecaba" title="Class instance initializer. ">WeirdoCustomDigits::init()</a>.  <a href="#a3e98e45dccbca403decdf31720856c96">More...</a><br/></td></tr>
+<tr class="separator:a3e98e45dccbca403decdf31720856c96"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aed996ddcdb6d32c186d606103f30b8d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigitsInt.html#aed996ddcdb6d32c186d606103f30b8d9">internalFromCustom</a> ($customNumber)</td></tr>
 <tr class="memdesc:aed996ddcdb6d32c186d606103f30b8d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#a900ac3ec479e4c15f5147a57e9f4922a" title="Convert a custom-number string to an internally represented (opaque) number. ">WeirdoCustomDigits::internalFromCustom()</a>.  <a href="#aed996ddcdb6d32c186d606103f30b8d9">More...</a><br/></td></tr>
 <tr class="separator:aed996ddcdb6d32c186d606103f30b8d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -169,9 +173,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a92218992c3de1e317a09486c3b626192 inherit pub_methods_classWeirdoCustomDigits"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigits.html#a92218992c3de1e317a09486c3b626192">customFromInternal</a> ($internal, $minCustomDigits=1)</td></tr>
 <tr class="memdesc:a92218992c3de1e317a09486c3b626192 inherit pub_methods_classWeirdoCustomDigits"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an internally represented number to a custom-number string.  <a href="#a92218992c3de1e317a09486c3b626192">More...</a><br/></td></tr>
 <tr class="separator:a92218992c3de1e317a09486c3b626192 inherit pub_methods_classWeirdoCustomDigits"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff7c862bfad05d654dfefb4adae630ee inherit pub_methods_classWeirdoCustomDigits"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigits.html#aff7c862bfad05d654dfefb4adae630ee">customRandomDigits</a> ($nDigits)</td></tr>
-<tr class="memdesc:aff7c862bfad05d654dfefb4adae630ee inherit pub_methods_classWeirdoCustomDigits"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a specified number of random custom-number digits.  <a href="#aff7c862bfad05d654dfefb4adae630ee">More...</a><br/></td></tr>
-<tr class="separator:aff7c862bfad05d654dfefb4adae630ee inherit pub_methods_classWeirdoCustomDigits"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a933848e0527c6c733e9f0c2be20da811 inherit pub_methods_classWeirdoCustomDigits"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigits.html#a933848e0527c6c733e9f0c2be20da811">customFromRaw</a> ($rawString, $minCustomDigits=1)</td></tr>
+<tr class="memdesc:a933848e0527c6c733e9f0c2be20da811 inherit pub_methods_classWeirdoCustomDigits"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert an internally represented number to a raw byte string.  <a href="#a933848e0527c6c733e9f0c2be20da811">More...</a><br/></td></tr>
+<tr class="separator:a933848e0527c6c733e9f0c2be20da811 inherit pub_methods_classWeirdoCustomDigits"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe6057491f632749d831434359ebf6ca inherit pub_methods_classWeirdoCustomDigits"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigits.html#abe6057491f632749d831434359ebf6ca">customRandomDigits</a> ($nDigits, $allowOverflow=false)</td></tr>
+<tr class="memdesc:abe6057491f632749d831434359ebf6ca inherit pub_methods_classWeirdoCustomDigits"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a specified number of random custom-number digits.  <a href="#abe6057491f632749d831434359ebf6ca">More...</a><br/></td></tr>
+<tr class="separator:abe6057491f632749d831434359ebf6ca inherit pub_methods_classWeirdoCustomDigits"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a252504242c7aef8bf5758dc3765f9ca7 inherit pub_methods_classWeirdoCustomDigits"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigits.html#a252504242c7aef8bf5758dc3765f9ca7">customRandomFromInternalRange</a> ($rangeInternal)</td></tr>
 <tr class="memdesc:a252504242c7aef8bf5758dc3765f9ca7 inherit pub_methods_classWeirdoCustomDigits"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get a random custom number within specified range.  <a href="#a252504242c7aef8bf5758dc3765f9ca7">More...</a><br/></td></tr>
 <tr class="separator:a252504242c7aef8bf5758dc3765f9ca7 inherit pub_methods_classWeirdoCustomDigits"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,6 +209,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab2db0f50fb564cf1ca229970d59212f1 inherit pub_methods_classWeirdoCustomDigits"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigits.html#ab2db0f50fb564cf1ca229970d59212f1">internalFromHex</a> ($hexNumber)</td></tr>
 <tr class="memdesc:ab2db0f50fb564cf1ca229970d59212f1 inherit pub_methods_classWeirdoCustomDigits"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a hexadecimal string to an internally represented (opaque) number.  <a href="#ab2db0f50fb564cf1ca229970d59212f1">More...</a><br/></td></tr>
 <tr class="separator:ab2db0f50fb564cf1ca229970d59212f1 inherit pub_methods_classWeirdoCustomDigits"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2752064f503dcf1c8df333dad868163 inherit pub_methods_classWeirdoCustomDigits"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigits.html#ab2752064f503dcf1c8df333dad868163">rawFromCustom</a> ($customNumber)</td></tr>
+<tr class="memdesc:ab2752064f503dcf1c8df333dad868163 inherit pub_methods_classWeirdoCustomDigits"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a custom-number string to a raw byte string.  <a href="#ab2752064f503dcf1c8df333dad868163">More...</a><br/></td></tr>
+<tr class="separator:ab2752064f503dcf1c8df333dad868163 inherit pub_methods_classWeirdoCustomDigits"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3c6d6984440786337bbc4776e7c7ad8b inherit pub_methods_classWeirdoCustomDigits"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigits.html#a3c6d6984440786337bbc4776e7c7ad8b">validateCustomDigit</a> ($customNumberDigit)</td></tr>
 <tr class="memdesc:a3c6d6984440786337bbc4776e7c7ad8b inherit pub_methods_classWeirdoCustomDigits"><td class="mdescLeft">&#160;</td><td class="mdescRight">Validate a single digit of a custom number.  <a href="#a3c6d6984440786337bbc4776e7c7ad8b">More...</a><br/></td></tr>
 <tr class="separator:a3c6d6984440786337bbc4776e7c7ad8b inherit pub_methods_classWeirdoCustomDigits"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -247,6 +257,12 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:ada12b8d8afcb11057be5f9970e240cdc inherit pub_static_methods_classWeirdoCustomDigits"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigits.html#ada12b8d8afcb11057be5f9970e240cdc">hexFromDecimal</a> ($decimalNumber)</td></tr>
 <tr class="memdesc:ada12b8d8afcb11057be5f9970e240cdc inherit pub_static_methods_classWeirdoCustomDigits"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a decimal-number string to a hexadecimal string.  <a href="#ada12b8d8afcb11057be5f9970e240cdc">More...</a><br/></td></tr>
 <tr class="separator:ada12b8d8afcb11057be5f9970e240cdc inherit pub_static_methods_classWeirdoCustomDigits"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add8756ecf1fd191f079a3705d0bd4052 inherit pub_static_methods_classWeirdoCustomDigits"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigits.html#add8756ecf1fd191f079a3705d0bd4052">hexFromRaw</a> ($rawString)</td></tr>
+<tr class="memdesc:add8756ecf1fd191f079a3705d0bd4052 inherit pub_static_methods_classWeirdoCustomDigits"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a raw byte string to a hexadecimal string.  <a href="#add8756ecf1fd191f079a3705d0bd4052">More...</a><br/></td></tr>
+<tr class="separator:add8756ecf1fd191f079a3705d0bd4052 inherit pub_static_methods_classWeirdoCustomDigits"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3151c15d1019b06dbc2428421d336594 inherit pub_static_methods_classWeirdoCustomDigits"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigits.html#a3151c15d1019b06dbc2428421d336594">rawFromHex</a> ($hexNumber)</td></tr>
+<tr class="memdesc:a3151c15d1019b06dbc2428421d336594 inherit pub_static_methods_classWeirdoCustomDigits"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convert a hexadecimal string to a raw byte string.  <a href="#a3151c15d1019b06dbc2428421d336594">More...</a><br/></td></tr>
+<tr class="separator:a3151c15d1019b06dbc2428421d336594 inherit pub_static_methods_classWeirdoCustomDigits"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc888d8d5cfc06d173fbcce6bc8d48c0 inherit pub_static_methods_classWeirdoCustomDigits"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigits.html#abc888d8d5cfc06d173fbcce6bc8d48c0">uc_str_split</a> ($str)</td></tr>
 <tr class="memdesc:abc888d8d5cfc06d173fbcce6bc8d48c0 inherit pub_static_methods_classWeirdoCustomDigits"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split a unicode string into an array of its individual characters.  <a href="#abc888d8d5cfc06d173fbcce6bc8d48c0">More...</a><br/></td></tr>
 <tr class="separator:abc888d8d5cfc06d173fbcce6bc8d48c0 inherit pub_static_methods_classWeirdoCustomDigits"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -286,6 +302,12 @@ Protected Member Functions</h2></td></tr>
 <tr class="memdesc:a92e2b8988800645419f353705d550b9d inherit pro_methods_classWeirdoCustomDigits"><td class="mdescLeft">&#160;</td><td class="mdescRight">Split a string into an array of its individual characters, depending on Unicode property.  <a href="#a92e2b8988800645419f353705d550b9d">More...</a><br/></td></tr>
 <tr class="separator:a92e2b8988800645419f353705d550b9d inherit pro_methods_classWeirdoCustomDigits"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a0617abf83308d6aea46a65d249536257"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigitsInt.html#a0617abf83308d6aea46a65d249536257">$_maxCustomRandomDigits</a></td></tr>
+<tr class="memdesc:a0617abf83308d6aea46a65d249536257"><td class="mdescLeft">&#160;</td><td class="mdescRight">The maximum number of random custom number digits we can generate at once.  <a href="#a0617abf83308d6aea46a65d249536257">More...</a><br/></td></tr>
+<tr class="separator:a0617abf83308d6aea46a65d249536257"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="inherited"></a>
 Additional Inherited Members</h2></td></tr>
 <tr class="inherit_header pub_attribs_classWeirdoCustomDigits"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_classWeirdoCustomDigits')"><img src="closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="classWeirdoCustomDigits.html">WeirdoCustomDigits</a></td></tr>
@@ -302,12 +324,15 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memdesc:aad7d2c22ccd930ed9e6aa02630787ce8 inherit pub_attribs_classWeirdoCustomDigits"><td class="mdescLeft">&#160;</td><td class="mdescRight">Digits compatibile with gmp from base 37 to base 62.  <a href="#aad7d2c22ccd930ed9e6aa02630787ce8">More...</a><br/></td></tr>
 <tr class="separator:aad7d2c22ccd930ed9e6aa02630787ce8 inherit pub_attribs_classWeirdoCustomDigits"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c8d9489ee99cc5f5ba726125e5a0de8 inherit pub_attribs_classWeirdoCustomDigits"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigits.html#a8c8d9489ee99cc5f5ba726125e5a0de8">DIGITS_70</a> = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_.*~!()-'</td></tr>
-<tr class="memdesc:a8c8d9489ee99cc5f5ba726125e5a0de8 inherit pub_attribs_classWeirdoCustomDigits"><td class="mdescLeft">&#160;</td><td class="mdescRight">Digits for radixes up to base 70 (including bc and gmp up to base 36)  <a href="#a8c8d9489ee99cc5f5ba726125e5a0de8">More...</a><br/></td></tr>
+<tr class="memdesc:a8c8d9489ee99cc5f5ba726125e5a0de8 inherit pub_attribs_classWeirdoCustomDigits"><td class="mdescLeft">&#160;</td><td class="mdescRight">Digits for radixes up to base 70 (compatible with base_convert and gmp up to base 36)  <a href="#a8c8d9489ee99cc5f5ba726125e5a0de8">More...</a><br/></td></tr>
 <tr class="separator:a8c8d9489ee99cc5f5ba726125e5a0de8 inherit pub_attribs_classWeirdoCustomDigits"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c1196d25042b24bb9b6b2e0a965d1e6 inherit pub_attribs_classWeirdoCustomDigits"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigits.html#a0c1196d25042b24bb9b6b2e0a965d1e6">DIGITS_BASE64</a> = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'</td></tr>
+<tr class="memdesc:a0c1196d25042b24bb9b6b2e0a965d1e6 inherit pub_attribs_classWeirdoCustomDigits"><td class="mdescLeft">&#160;</td><td class="mdescRight">Digits compatible with base64 encoding.  <a href="#a0c1196d25042b24bb9b6b2e0a965d1e6">More...</a><br/></td></tr>
+<tr class="separator:a0c1196d25042b24bb9b6b2e0a965d1e6 inherit pub_attribs_classWeirdoCustomDigits"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5ee38c9d1adaf5f9c580749b2b905d53 inherit pub_attribs_classWeirdoCustomDigits"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigits.html#a5ee38c9d1adaf5f9c580749b2b905d53">IEEE_754_SIGNIFICAND_BITS</a> = 53</td></tr>
 <tr class="memdesc:a5ee38c9d1adaf5f9c580749b2b905d53 inherit pub_attribs_classWeirdoCustomDigits"><td class="mdescLeft">&#160;</td><td class="mdescRight">Precision of IEEE 754 floating point number.  <a href="#a5ee38c9d1adaf5f9c580749b2b905d53">More...</a><br/></td></tr>
 <tr class="separator:a5ee38c9d1adaf5f9c580749b2b905d53 inherit pub_attribs_classWeirdoCustomDigits"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9b73bc03fbeb1d2c37e24043cf801ef1 inherit pub_attribs_classWeirdoCustomDigits"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigits.html#a9b73bc03fbeb1d2c37e24043cf801ef1">VERSION</a> = '1.0.0'</td></tr>
+<tr class="memitem:a9b73bc03fbeb1d2c37e24043cf801ef1 inherit pub_attribs_classWeirdoCustomDigits"><td class="memItemLeft" align="right" valign="top">const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classWeirdoCustomDigits.html#a9b73bc03fbeb1d2c37e24043cf801ef1">VERSION</a> = '1.0.1'</td></tr>
 <tr class="memdesc:a9b73bc03fbeb1d2c37e24043cf801ef1 inherit pub_attribs_classWeirdoCustomDigits"><td class="mdescLeft">&#160;</td><td class="mdescRight">Class version.  <a href="#a9b73bc03fbeb1d2c37e24043cf801ef1">More...</a><br/></td></tr>
 <tr class="separator:a9b73bc03fbeb1d2c37e24043cf801ef1 inherit pub_attribs_classWeirdoCustomDigits"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pro_attribs_classWeirdoCustomDigits"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_classWeirdoCustomDigits')"><img src="closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="classWeirdoCustomDigits.html">WeirdoCustomDigits</a></td></tr>
@@ -381,9 +406,9 @@ Limitations</h1>
 <p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#a303bee696cf1652506c5b4303c40a3c3" title="Get the number of binary bits needed to represent a number less than the specified limit...">WeirdoCustomDigits::_getBitsNeededForRangeInternal()</a>. </p>
 <dl class="section user"><dt>Access:</dt><dd>private </dd></dl>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00158">158</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00194">194</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
 
-<p>Referenced by <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00141">customRandomFromInternalRange()</a>.</p>
+<p>Referenced by <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00177">customRandomFromInternalRange()</a>.</p>
 
 </div>
 </div>
@@ -412,9 +437,9 @@ Limitations</h1>
 <p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#a591d3e3df4df5af4355fa646f0e83d73" title="Get the range of numbers needed for the specified number of custom-number digits. ...">WeirdoCustomDigits::_getRangeNeededForCustomDigits()</a>. </p>
 <dl class="section user"><dt>Access:</dt><dd>private </dd></dl>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00172">172</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00208">208</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
 
-<p>Referenced by <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00133">customRandomDigits()</a>.</p>
+<p>Referenced by <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00139">customRandomDigits()</a>.</p>
 
 </div>
 </div>
@@ -442,7 +467,7 @@ Limitations</h1>
 <p>For semantics, see <a class="el" href="classWeirdoCustomDigits.html#afa056ff003de4f14f2e046d35ccefb42" title="Initialize this class&#39;s static properties. ">WeirdoCustomDigits::_initStatic()</a>. </p>
 <dl class="section user"><dt>Access:</dt><dd>private </dd></dl>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00187">187</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00223">223</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
 
 </div>
 </div>
@@ -470,7 +495,7 @@ Limitations</h1>
 
 <p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#acf75d2a3194f822a00660bec8ed8058d" title="Convert a decimal number/string to a binary-number string of zero (0) and one (1) characters...">WeirdoCustomDigits::binFromDecimal()</a>. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00045">45</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00051">51</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
 
 </div>
 </div>
@@ -500,9 +525,9 @@ Limitations</h1>
 
 <p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#aa5e72cd4334fbd443bd46e6938d667fe" title="Convert a decimal number to a custom-number string. ">WeirdoCustomDigits::customFromDecimal()</a>. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00050">50</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00056">56</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
 
-<p>References <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00060">customFromInternal()</a>.</p>
+<p>References <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00066">customFromInternal()</a>.</p>
 
 </div>
 </div>
@@ -532,11 +557,11 @@ Limitations</h1>
 
 <p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#a29954ea57b845ad1ef45c5e41eb3e3af" title="Convert a hexadecimal number to a custom-number string. ">WeirdoCustomDigits::customFromHex()</a>. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00055">55</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00061">61</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
 
-<p>References <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00060">customFromInternal()</a>.</p>
+<p>References <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00066">customFromInternal()</a>.</p>
 
-<p>Referenced by <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00141">customRandomFromInternalRange()</a>.</p>
+<p>Referenced by <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00177">customRandomFromInternalRange()</a>.</p>
 
 </div>
 </div>
@@ -566,15 +591,15 @@ Limitations</h1>
 
 <p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#a92218992c3de1e317a09486c3b626192" title="Convert an internally represented number to a custom-number string. ">WeirdoCustomDigits::customFromInternal()</a>. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00060">60</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00066">66</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
 
-<p>References <a class="el" href="WeirdoCustomDigits_8php_source.html#l00632">WeirdoCustomDigits\$_radix</a>.</p>
+<p>References <a class="el" href="WeirdoCustomDigits_8php_source.html#l00700">WeirdoCustomDigits\$_radix</a>.</p>
 
-<p>Referenced by <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00050">customFromDecimal()</a>, and <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00055">customFromHex()</a>.</p>
+<p>Referenced by <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00056">customFromDecimal()</a>, and <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00061">customFromHex()</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a1937f72fd8bfaa523770f1b3ca579c46"></a>
+<a class="anchor" id="abf9e06ad7c43544b76038a23048dba2c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -582,17 +607,27 @@ Limitations</h1>
           <td class="memname">WeirdoCustomDigitsInt::customRandomDigits </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
-          <td class="paramname"><em>$nDigits</em></td><td>)</td>
+          <td class="paramname"><em>$nDigits</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$allowOverflow</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#aff7c862bfad05d654dfefb4adae630ee" title="Get a specified number of random custom-number digits. ">WeirdoCustomDigits::customRandomDigits()</a>. </p>
+<p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#abe6057491f632749d831434359ebf6ca" title="Get a specified number of random custom-number digits. ">WeirdoCustomDigits::customRandomDigits()</a>. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00133">133</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00139">139</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
 
-<p>References <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00172">_getRangeNeededForCustomDigits()</a>, and <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00141">customRandomFromInternalRange()</a>.</p>
+<p>References <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00232">$_maxCustomRandomDigits</a>, <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00208">_getRangeNeededForCustomDigits()</a>, and <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00177">customRandomFromInternalRange()</a>.</p>
 
 </div>
 </div>
@@ -612,11 +647,11 @@ Limitations</h1>
 
 <p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#a252504242c7aef8bf5758dc3765f9ca7" title="Get a random custom number within specified range. ">WeirdoCustomDigits::customRandomFromInternalRange()</a>. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00141">141</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00177">177</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
 
-<p>References <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00158">_getBitsNeededForRangeInternal()</a>, <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00055">customFromHex()</a>, and <a class="el" href="WeirdoCustomDigits_8php_source.html#l00488">WeirdoCustomDigits\hexFromRandomBits()</a>.</p>
+<p>References <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00194">_getBitsNeededForRangeInternal()</a>, <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00061">customFromHex()</a>, and <a class="el" href="WeirdoCustomDigits_8php_source.html#l00532">WeirdoCustomDigits\hexFromRandomBits()</a>.</p>
 
-<p>Referenced by <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00133">customRandomDigits()</a>.</p>
+<p>Referenced by <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00139">customRandomDigits()</a>.</p>
 
 </div>
 </div>
@@ -644,7 +679,7 @@ Limitations</h1>
 
 <p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#afa521671a669f14e417c2d8dacc4d61e" title="Convert a binary-number string to a decimal-number string. ">WeirdoCustomDigits::decimalFromBin()</a>. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00079">79</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00085">85</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
 
 </div>
 </div>
@@ -664,9 +699,9 @@ Limitations</h1>
 
 <p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#a584b22192626cf22f324983b48f2240f" title="Convert a binary-number string to a decimal-number string. ">WeirdoCustomDigits::decimalFromCustom()</a>. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00084">84</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00090">90</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
 
-<p>References <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00109">internalFromCustom()</a>.</p>
+<p>References <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00115">internalFromCustom()</a>.</p>
 
 </div>
 </div>
@@ -694,7 +729,7 @@ Limitations</h1>
 
 <p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#ac3435ca46063bb848c22ce7ae719c10f">WeirdoCustomDigits::decimalFromHex()</a>. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00074">74</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00080">80</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
 
 </div>
 </div>
@@ -714,7 +749,7 @@ Limitations</h1>
 
 <p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#ada54ed246d7576893a3d3747a9c81af1" title="Convert an internally represented number to a decimal-number string. ">WeirdoCustomDigits::decimalFromInternal()</a>. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00089">89</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00095">95</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
 
 </div>
 </div>
@@ -734,9 +769,9 @@ Limitations</h1>
 
 <p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#a3a4b1fc7cf96854c960d7c17ea87fea0" title="Convert a custom-number string to a hexadecimal string. ">WeirdoCustomDigits::hexFromCustom()</a>. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00099">99</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00105">105</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
 
-<p>References <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00109">internalFromCustom()</a>.</p>
+<p>References <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00115">internalFromCustom()</a>.</p>
 
 </div>
 </div>
@@ -764,7 +799,7 @@ Limitations</h1>
 
 <p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#ada12b8d8afcb11057be5f9970e240cdc" title="Convert a decimal-number string to a hexadecimal string. ">WeirdoCustomDigits::hexFromDecimal()</a>. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00094">94</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00100">100</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
 
 </div>
 </div>
@@ -784,7 +819,43 @@ Limitations</h1>
 
 <p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#a8232214584466e67457fa155de28a267" title="Convert an internally represented number to a hexadecimal string. ">WeirdoCustomDigits::hexFromInternal()</a>. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00104">104</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00110">110</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a3e98e45dccbca403decdf31720856c96"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">WeirdoCustomDigitsInt::init </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$digits</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$radix</em> = <code>null</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>$use_uc</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#a43e5d04aad1331c0f0615168182ecaba" title="Class instance initializer. ">WeirdoCustomDigits::init()</a>. </p>
+
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00045">45</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
 
 </div>
 </div>
@@ -804,11 +875,11 @@ Limitations</h1>
 
 <p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#a900ac3ec479e4c15f5147a57e9f4922a" title="Convert a custom-number string to an internally represented (opaque) number. ">WeirdoCustomDigits::internalFromCustom()</a>. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00109">109</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00115">115</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
 
-<p>References <a class="el" href="WeirdoCustomDigits_8php_source.html#l00546">WeirdoCustomDigits\str_split()</a>.</p>
+<p>References <a class="el" href="WeirdoCustomDigits_8php_source.html#l00614">WeirdoCustomDigits\str_split()</a>.</p>
 
-<p>Referenced by <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00084">decimalFromCustom()</a>, and <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00099">hexFromCustom()</a>.</p>
+<p>Referenced by <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00090">decimalFromCustom()</a>, and <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00105">hexFromCustom()</a>.</p>
 
 </div>
 </div>
@@ -828,7 +899,7 @@ Limitations</h1>
 
 <p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#a34a9c1290875f06438bdd9184a230f89" title="Convert a decimal-number string to an internally represented (opaque) number. ">WeirdoCustomDigits::internalFromDecimal()</a>. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00123">123</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00129">129</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
 
 </div>
 </div>
@@ -848,11 +919,37 @@ Limitations</h1>
 
 <p>For parameters and semantics, see <a class="el" href="classWeirdoCustomDigits.html#ab2db0f50fb564cf1ca229970d59212f1" title="Convert a hexadecimal string to an internally represented (opaque) number. ">WeirdoCustomDigits::internalFromHex()</a>. </p>
 
-<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00128">128</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00134">134</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
+<a class="anchor" id="a0617abf83308d6aea46a65d249536257"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">WeirdoCustomDigitsInt::$_maxCustomRandomDigits</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The maximum number of random custom number digits we can generate at once. </p>
+
+<p>Definition at line <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00232">232</a> of file <a class="el" href="WeirdoCustomDigitsInt_8php_source.html">WeirdoCustomDigitsInt.php</a>.</p>
+
+<p>Referenced by <a class="el" href="WeirdoCustomDigitsInt_8php_source.html#l00139">customRandomDigits()</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="af2310c33012fefe4151d90e2ef2285c8"></a>
 <div class="memitem">
 <div class="memproto">
@@ -888,7 +985,7 @@ Limitations</h1>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classWeirdoCustomDigitsInt.html">WeirdoCustomDigitsInt</a></li>
-    <li class="footer">Generated on Tue Mar 11 2014 16:05:27 for WeirdoCustomDigits by
+    <li class="footer">Generated on Wed Mar 12 2014 22:51:35 for WeirdoCustomDigits by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
     <li class="footer center">© 2014 WeirdoSoft</li>

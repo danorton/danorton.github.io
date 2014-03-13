@@ -7,7 +7,7 @@ var classWeirdoCustomDigitsGmp =
     [ "customFromDecimal", "classWeirdoCustomDigitsGmp.html#aa973747dab9e50b788db511b57c59b14", null ],
     [ "customFromHex", "classWeirdoCustomDigitsGmp.html#a689b8a9992ab588d13852ded64432827", null ],
     [ "customFromInternal", "classWeirdoCustomDigitsGmp.html#a909ba48f99655b1331cdc6992fab1c33", null ],
-    [ "customRandomDigits", "classWeirdoCustomDigitsGmp.html#a8cd9b68a1a7e1df3428bec0eea14e157", null ],
+    [ "customRandomDigits", "classWeirdoCustomDigitsGmp.html#a257d18d247fcb2b5028d2692628bb71c", null ],
     [ "customRandomFromInternalRange", "classWeirdoCustomDigitsGmp.html#a27de56f5b909b598674e37bbb33e1ec7", null ],
     [ "decimalFromBin", "classWeirdoCustomDigitsGmp.html#afa57ce13afaf724dbc2a8fa54b03bfb7", null ],
     [ "decimalFromCustom", "classWeirdoCustomDigitsGmp.html#a538635a5f4547e264fbfc7a6df6c2328", null ],
