@@ -108,15 +108,11 @@ $(document).ready(function(){initNavTree('classApiShortUrl.html','');});
 Inheritance diagram for ApiShortUrl:</div>
 <div class="dyncontent">
 <div class="center"><img src="classApiShortUrl__inherit__graph.png" border="0" usemap="#ApiShortUrl_inherit__map" alt="Inheritance graph"/></div>
-<map name="ApiShortUrl_inherit__map" id="ApiShortUrl_inherit__map">
-</map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <div class="dynheader">
 Collaboration diagram for ApiShortUrl:</div>
 <div class="dyncontent">
 <div class="center"><img src="classApiShortUrl__coll__graph.png" border="0" usemap="#ApiShortUrl_coll__map" alt="Collaboration graph"/></div>
-<map name="ApiShortUrl_coll__map" id="ApiShortUrl_coll__map">
-</map>
 <center><span class="legend">[<a target="top" href="graph_legend.html">legend</a>]</span></center></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -187,6 +183,9 @@ Static Private Attributes</h2></td></tr>
 <tr class="memitem:afdd3f4e72e58cb6ce671566d3c783071"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classApiShortUrl.html#afdd3f4e72e58cb6ce671566d3c783071">$_allowMissingShortUrlExtensionNotice</a> = true</td></tr>
 <tr class="memdesc:afdd3f4e72e58cb6ce671566d3c783071"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag to prevent repeat warnings of missing ShortUrl extension during the same request  <a href="#afdd3f4e72e58cb6ce671566d3c783071">More...</a><br/></td></tr>
 <tr class="separator:afdd3f4e72e58cb6ce671566d3c783071"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1a5d00faf6688a7889e803598c076be"><td class="memItemLeft" align="right" valign="top">static&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classApiShortUrl.html#af1a5d00faf6688a7889e803598c076be">$_needToWarnAboutOrphanURLs</a> = true</td></tr>
+<tr class="memdesc:af1a5d00faf6688a7889e803598c076be"><td class="mdescLeft">&#160;</td><td class="mdescRight">flag to prevent repeat warnings of orphan short URLs  <a href="#af1a5d00faf6688a7889e803598c076be">More...</a><br/></td></tr>
+<tr class="separator:af1a5d00faf6688a7889e803598c076be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>API for the ShortUrl extension. </p>
@@ -248,7 +247,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Query the ShortUrl database for details about specified ShortUrl codes. </p>
 
-<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00214">214</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
+<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00224">224</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
 
 <p>Referenced by <a class="el" href="ApiShortUrl_8php_source.html#l00072">execute()</a>.</p>
 
@@ -285,9 +284,9 @@ Static Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>string that contains the ShortUrl code </dd></dl>
 
-<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00197">197</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
+<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00207">207</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
 
-<p>Referenced by <a class="el" href="ApiQueryShortUrl_8php_source.html#l00108">ApiQueryShortUrl\_executeQuery()</a>.</p>
+<p>Referenced by <a class="el" href="ApiQueryShortUrl_8php_source.html#l00135">ApiQueryShortUrl\_executeQuery()</a>, and <a class="el" href="ApiShortUrl_8php_source.html#l00072">execute()</a>.</p>
 
 </div>
 </div>
@@ -308,7 +307,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00072">72</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
 
-<p>References <a class="el" href="ApiShortUrl_8php_source.html#l00214">_queryDB()</a>.</p>
+<p>References <a class="el" href="ApiShortUrl_8php_source.html#l00224">_queryDB()</a>, and <a class="el" href="ApiShortUrl_8php_source.html#l00207">codeFromId()</a>.</p>
 
 </div>
 </div>
@@ -327,7 +326,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>For parameters and semantics, see ApiBase::getAllowedParams. </p>
 
-<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00120">120</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
+<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00123">123</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
 
 </div>
 </div>
@@ -346,7 +345,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>For parameters and semantics, see ApiBase::getDescription. </p>
 
-<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00136">136</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
+<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00142">142</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
 
 </div>
 </div>
@@ -365,7 +364,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>For parameters and semantics, see ApiBase::getExamples. </p>
 
-<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00141">141</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
+<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00151">151</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
 
 </div>
 </div>
@@ -393,7 +392,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>Get the namespace text from the namespace id number. </p>
 
-<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00153">153</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
+<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00163">163</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
 
 </div>
 </div>
@@ -412,7 +411,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>For parameters and semantics, see ApiBase::getParamDescription. </p>
 
-<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00129">129</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
+<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00132">132</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
 
 </div>
 </div>
@@ -439,9 +438,9 @@ Static Private Attributes</h2></td></tr>
 
 <p>create the template for the short URL path </p>
 
-<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00177">177</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
+<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00187">187</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
 
-<p>Referenced by <a class="el" href="ApiQueryShortUrl_8php_source.html#l00108">ApiQueryShortUrl\_executeQuery()</a>.</p>
+<p>Referenced by <a class="el" href="ApiQueryShortUrl_8php_source.html#l00135">ApiQueryShortUrl\_executeQuery()</a>.</p>
 
 </div>
 </div>
@@ -476,7 +475,7 @@ Static Private Attributes</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>int that contains the ShortUrl numeric ID ( su_id ) </dd></dl>
 
-<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00207">207</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
+<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00217">217</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
 
 </div>
 </div>
@@ -501,7 +500,7 @@ Static Private Attributes</h2></td></tr>
 
 <p>flag to prevent repeat warnings of missing ShortUrl extension during the same request </p>
 
-<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00244">244</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
+<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00260">260</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
 
 </div>
 </div>
@@ -525,7 +524,31 @@ Static Private Attributes</h2></td></tr>
 
 <p>the name of our module, as provided to our constructor </p>
 
-<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00241">241</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
+<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00257">257</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af1a5d00faf6688a7889e803598c076be"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">ApiShortUrl::$_needToWarnAboutOrphanURLs = true</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>flag to prevent repeat warnings of orphan short URLs </p>
+
+<p>Definition at line <a class="el" href="ApiShortUrl_8php_source.html#l00263">263</a> of file <a class="el" href="ApiShortUrl_8php_source.html">ApiShortUrl.php</a>.</p>
 
 </div>
 </div>
@@ -603,7 +626,7 @@ Static Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="classApiShortUrl.html">ApiShortUrl</a></li>
-    <li class="footer">Generated on Fri Mar 14 2014 00:35:37 for ShortUrlApi by
+    <li class="footer">Generated on Fri Mar 14 2014 15:33:29 for ShortUrlApi by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.6 </li>
     <li class="footer center">© 2014 WeirdoSoft</li>

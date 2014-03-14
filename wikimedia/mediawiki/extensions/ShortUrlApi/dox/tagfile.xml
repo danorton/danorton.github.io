@@ -208,6 +208,13 @@
       <anchor>a737c768abb85f360532143b66ee1de3c</anchor>
       <arglist>()</arglist>
     </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>getPropertyDescriptions</name>
+      <anchorfile>classApiQueryShortUrl.html</anchorfile>
+      <anchor>a511195428d1f9598cf7692f6c4863257</anchor>
+      <arglist>($mid= &apos;&apos;)</arglist>
+    </member>
     <member kind="variable">
       <type>const</type>
       <name>MAX_PAGES</name>
@@ -242,6 +249,13 @@
       <anchorfile>classApiQueryShortUrl.html</anchorfile>
       <anchor>ada699dec5a5e1f288bb6602ac8e476da</anchor>
       <arglist>($pageids)</arglist>
+    </member>
+    <member kind="function" protection="private" static="yes">
+      <type>static</type>
+      <name>_getProperties</name>
+      <anchorfile>classApiQueryShortUrl.html</anchorfile>
+      <anchor>a709ad846129bc9c2226148154a03bcd5</anchor>
+      <arglist>($mid= &apos;&apos;)</arglist>
     </member>
   </compound>
   <compound kind="class">
@@ -364,6 +378,13 @@
       <name>$_allowMissingShortUrlExtensionNotice</name>
       <anchorfile>classApiShortUrl.html</anchorfile>
       <anchor>afdd3f4e72e58cb6ce671566d3c783071</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="private" static="yes">
+      <type>static</type>
+      <name>$_needToWarnAboutOrphanURLs</name>
+      <anchorfile>classApiShortUrl.html</anchorfile>
+      <anchor>af1a5d00faf6688a7889e803598c076be</anchor>
       <arglist></arglist>
     </member>
   </compound>

@@ -13,6 +13,7 @@ var classApiShortUrl =
     [ "idFromCode", "classApiShortUrl.html#a7e8e5824668d0971e94f22e3629e4b78", null ],
     [ "$_allowMissingShortUrlExtensionNotice", "classApiShortUrl.html#afdd3f4e72e58cb6ce671566d3c783071", null ],
     [ "$_moduleName", "classApiShortUrl.html#a23cf88a9cf0ffbefb6f1f26bbb16ac27", null ],
+    [ "$_needToWarnAboutOrphanURLs", "classApiShortUrl.html#af1a5d00faf6688a7889e803598c076be", null ],
     [ "MID", "classApiShortUrl.html#a3403e55610733b44819703f64fde0d38", null ],
     [ "PARAM_CODES", "classApiShortUrl.html#a350ca395e6b5749f3705988670ef5011", null ],
     [ "PARAM_NAME", "classApiShortUrl.html#ab8e8edd80eb1da861602fe739185072d", null ],
