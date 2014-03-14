@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<tagfile>
+  <compound kind="file">
+    <name>mainpage.dox</name>
+    <path>/Users/danorton/git/github/danorton/wm-ext-shorturlapi/</path>
+    <filename>mainpage_8dox</filename>
+  </compound>
+  <compound kind="file">
+    <name>ApiQueryShortUrl.php</name>
+    <path>/Users/danorton/git/github/danorton/wm-ext-shorturlapi/ShortUrlApi/</path>
+    <filename>ApiQueryShortUrl_8php</filename>
+    <class kind="class">ApiQueryShortUrl</class>
+    <docanchor file="index">License</docanchor>
+  </compound>
+  <compound kind="file">
+    <name>ApiShortUrl.php</name>
+    <path>/Users/danorton/git/github/danorton/wm-ext-shorturlapi/ShortUrlApi/</path>
+    <filename>ApiShortUrl_8php</filename>
+    <class kind="class">ApiShortUrl</class>
+    <docanchor file="index">License</docanchor>
+  </compound>
+  <compound kind="file">
+    <name>ShortUrlApi.php</name>
+    <path>/Users/danorton/git/github/danorton/wm-ext-shorturlapi/ShortUrlApi/</path>
+    <filename>ShortUrlApi_8php</filename>
+    <member kind="variable">
+      <type>global</type>
+      <name>$wgAPIModules</name>
+      <anchorfile>ShortUrlApi_8php.html</anchorfile>
+      <anchor>a1c007dc908f2a8dfd3a4e22af9cb38d3</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>$wgAPIModules</name>
+      <anchorfile>ShortUrlApi_8php.html</anchorfile>
+      <anchor>abcf0148fbbc49ec8a7d0c05f45670d9d</anchor>
+      <arglist>[MW_EXT_SHORTURLAPI_PARAM_NAME]</arglist>
+    </member>
+    <member kind="variable">
+      <type>global</type>
+      <name>$wgAPIPropModules</name>
+      <anchorfile>ShortUrlApi_8php.html</anchorfile>
+      <anchor>aa5e2263a5b06ad84ab3021f0759b622c</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>$wgAPIPropModules</name>
+      <anchorfile>ShortUrlApi_8php.html</anchorfile>
+      <anchor>ad971c713132c487219e99aea42fbe57e</anchor>
+      <arglist>[MW_EXT_SHORTURLAPI_PARAM_NAME]</arglist>
+    </member>
+    <member kind="variable">
+      <type>global</type>
+      <name>$wgAutoloadClasses</name>
+      <anchorfile>ShortUrlApi_8php.html</anchorfile>
+      <anchor>a2315c70afe0e282a5a2a731d91fe70a5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>$wgAutoloadClasses</name>
+      <anchorfile>ShortUrlApi_8php.html</anchorfile>
+      <anchor>aa77b952730c4b02cd4878588f6c2b150</anchor>
+      <arglist>[MW_EXT_SHORTURLAPI_API_QUERY_CLASS]</arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>$wgAutoloadClasses</name>
+      <anchorfile>ShortUrlApi_8php.html</anchorfile>
+      <anchor>ac99237a1cb62d1835eff74bbb362a73b</anchor>
+      <arglist>[MW_EXT_SHORTURLAPI_API_CLASS]</arglist>
+    </member>
+    <member kind="variable">
+      <type>global</type>
+      <name>$wgExtensionCredits</name>
+      <anchorfile>ShortUrlApi_8php.html</anchorfile>
+      <anchor>a863efb7fb016179c1e151d4f23ce50cd</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type></type>
+      <name>$wgExtensionCredits</name>
+      <anchorfile>ShortUrlApi_8php.html</anchorfile>
+      <anchor>a29d137fe680cb26f2ba973a4449f0cb7</anchor>
+      <arglist>[&apos;api&apos;][]</arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>MW_EXT_SHORTURLAPI_API_CLASS</name>
+      <anchorfile>ShortUrlApi_8php.html</anchorfile>
+      <anchor>ac43ba1323298173296dc8cd7a95d7229</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>MW_EXT_SHORTURLAPI_API_MID</name>
+      <anchorfile>ShortUrlApi_8php.html</anchorfile>
+      <anchor>a0ac3b5f899b619f642c60d2846ef8712</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>MW_EXT_SHORTURLAPI_API_QUERY_CLASS</name>
+      <anchorfile>ShortUrlApi_8php.html</anchorfile>
+      <anchor>a2ebb077d10305b348c231426d7884894</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>MW_EXT_SHORTURLAPI_AUTHOR</name>
+      <anchorfile>ShortUrlApi_8php.html</anchorfile>
+      <anchor>abd6304be2134367ce8c0e76e9c8c6c75</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>MW_EXT_SHORTURLAPI_NAME</name>
+      <anchorfile>ShortUrlApi_8php.html</anchorfile>
+      <anchor>a1b61a8518d6766b0deaabe26b43fa735</anchor>
+      <arglist>(defined( &apos;MW_EXT_SHORTURLAPI_NAME&apos;))</arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>MW_EXT_SHORTURLAPI_PARAM_NAME</name>
+      <anchorfile>ShortUrlApi_8php.html</anchorfile>
+      <anchor>a80d0a8df4d99a8f03e81613c55003cd6</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>MW_EXT_SHORTURLAPI_VERSION</name>
+      <anchorfile>ShortUrlApi_8php.html</anchorfile>
+      <anchor>a1176f3ef9287c74ff08b068b9bcc6d79</anchor>
+      <arglist></arglist>
+    </member>
+    <docanchor file="index">License</docanchor>
+  </compound>
+  <compound kind="class">
+    <name>ApiQueryShortUrl</name>
+    <filename>classApiQueryShortUrl.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>__construct</name>
+      <anchorfile>classApiQueryShortUrl.html</anchorfile>
+      <anchor>aef4c557faa831f5ee686bad06b9a5f7e</anchor>
+      <arglist>($query, $moduleName)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>execute</name>
+      <anchorfile>classApiQueryShortUrl.html</anchorfile>
+      <anchor>a9fed7b8a1dcb72cbe10e30cf59b2bcf9</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>getAllowedParams</name>
+      <anchorfile>classApiQueryShortUrl.html</anchorfile>
+      <anchor>abb225a7224f7cf19e0bf6b98cf57798b</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>getDescription</name>
+      <anchorfile>classApiQueryShortUrl.html</anchorfile>
+      <anchor>abac972d35663c09c0feba7c177984fe0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>getExamples</name>
+      <anchorfile>classApiQueryShortUrl.html</anchorfile>
+      <anchor>acefddcc7ace957a6b866a6a51d9b8c9f</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>getParamDescription</name>
+      <anchorfile>classApiQueryShortUrl.html</anchorfile>
+      <anchor>a737c768abb85f360532143b66ee1de3c</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>MAX_PAGES</name>
+      <anchorfile>classApiQueryShortUrl.html</anchorfile>
+      <anchor>af6435beed2cb89c6315e2d6d84a01038</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>MID</name>
+      <anchorfile>classApiQueryShortUrl.html</anchorfile>
+      <anchor>aaa8a188051e736beee8a2fe549479253</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>VERSION</name>
+      <anchorfile>classApiQueryShortUrl.html</anchorfile>
+      <anchor>a155eed193b23f779c0937977cde0114d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" protection="private">
+      <type></type>
+      <name>_executeQuery</name>
+      <anchorfile>classApiQueryShortUrl.html</anchorfile>
+      <anchor>aa5fcfc231b0f7d4690be1f608ada3130</anchor>
+      <arglist>($params)</arglist>
+    </member>
+    <member kind="function" protection="private">
+      <type></type>
+      <name>_queryDB</name>
+      <anchorfile>classApiQueryShortUrl.html</anchorfile>
+      <anchor>ada699dec5a5e1f288bb6602ac8e476da</anchor>
+      <arglist>($pageids)</arglist>
+    </member>
+  </compound>
+  <compound kind="class">
+    <name>ApiShortUrl</name>
+    <filename>classApiShortUrl.html</filename>
+    <member kind="function">
+      <type></type>
+      <name>__construct</name>
+      <anchorfile>classApiShortUrl.html</anchorfile>
+      <anchor>aa8b2344d97cca383c7c31307355a8437</anchor>
+      <arglist>($query, $moduleName)</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>execute</name>
+      <anchorfile>classApiShortUrl.html</anchorfile>
+      <anchor>a005be1bc54deffc84c55254668802ce0</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>getAllowedParams</name>
+      <anchorfile>classApiShortUrl.html</anchorfile>
+      <anchor>a4c879a1ff31bed3bd66a57c816291b01</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>getDescription</name>
+      <anchorfile>classApiShortUrl.html</anchorfile>
+      <anchor>ae772b6489a1352ccd386b516cedaaecf</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>getExamples</name>
+      <anchorfile>classApiShortUrl.html</anchorfile>
+      <anchor>ad92b134639760b51f9f241b829573e03</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function">
+      <type></type>
+      <name>getParamDescription</name>
+      <anchorfile>classApiShortUrl.html</anchorfile>
+      <anchor>a8fef60e7919b8bc87d9403afc3023792</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>codeFromId</name>
+      <anchorfile>classApiShortUrl.html</anchorfile>
+      <anchor>a5e16fbf83ee651a9bac321f7e696b8f1</anchor>
+      <arglist>($id)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>getNamespaceText</name>
+      <anchorfile>classApiShortUrl.html</anchorfile>
+      <anchor>adc56456862eab0df310479819ab560e3</anchor>
+      <arglist>($index)</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>getPathTemplate</name>
+      <anchorfile>classApiShortUrl.html</anchorfile>
+      <anchor>a4146fd6ae04e897260d2898fa5e267a8</anchor>
+      <arglist>()</arglist>
+    </member>
+    <member kind="function" static="yes">
+      <type>static</type>
+      <name>idFromCode</name>
+      <anchorfile>classApiShortUrl.html</anchorfile>
+      <anchor>a7e8e5824668d0971e94f22e3629e4b78</anchor>
+      <arglist>($code)</arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>MID</name>
+      <anchorfile>classApiShortUrl.html</anchorfile>
+      <anchor>a3403e55610733b44819703f64fde0d38</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>PARAM_CODES</name>
+      <anchorfile>classApiShortUrl.html</anchorfile>
+      <anchor>a350ca395e6b5749f3705988670ef5011</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>PARAM_NAME</name>
+      <anchorfile>classApiShortUrl.html</anchorfile>
+      <anchor>ab8e8edd80eb1da861602fe739185072d</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable">
+      <type>const</type>
+      <name>VERSION</name>
+      <anchorfile>classApiShortUrl.html</anchorfile>
+      <anchor>a94ba6ab996c785289c322b9e6e05eea5</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="function" protection="private">
+      <type></type>
+      <name>_queryDB</name>
+      <anchorfile>classApiShortUrl.html</anchorfile>
+      <anchor>a4d42b22e5699b602f9333942fecb78cb</anchor>
+      <arglist>($codes)</arglist>
+    </member>
+    <member kind="variable" protection="private">
+      <type></type>
+      <name>$_moduleName</name>
+      <anchorfile>classApiShortUrl.html</anchorfile>
+      <anchor>a23cf88a9cf0ffbefb6f1f26bbb16ac27</anchor>
+      <arglist></arglist>
+    </member>
+    <member kind="variable" protection="private" static="yes">
+      <type>static</type>
+      <name>$_allowMissingShortUrlExtensionNotice</name>
+      <anchorfile>classApiShortUrl.html</anchorfile>
+      <anchor>afdd3f4e72e58cb6ce671566d3c783071</anchor>
+      <arglist></arglist>
+    </member>
+  </compound>
+  <compound kind="dir">
+    <name>ShortUrlApi</name>
+    <path>/Users/danorton/git/github/danorton/wm-ext-shorturlapi/ShortUrlApi/</path>
+    <filename>dir_350cb550dd7f359e01241709baec9086.html</filename>
+    <file>ApiQueryShortUrl.php</file>
+    <file>ApiShortUrl.php</file>
+    <file>ShortUrlApi.php</file>
+  </compound>
+  <compound kind="page">
+    <name>index</name>
+    <title></title>
+    <filename>index</filename>
+    <docanchor file="index">License</docanchor>
+  </compound>
+</tagfile>
